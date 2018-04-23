@@ -8,6 +8,10 @@ import java.util.Map;
  * 2018.3.14
  * Question 1: Two Sum
  * https://leetcode.com/problems/two-sum/description/
+ *
+ * hint:
+ * put previous visited number into a map, so when visit later number, can used previous number
+ * no need to have two for loops
  */
 public class Q1TwoSum {
     public static int[] twoSum(int[] nums, int target) {

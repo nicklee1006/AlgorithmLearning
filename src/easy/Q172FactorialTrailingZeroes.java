@@ -6,6 +6,9 @@ package easy;
  *
  * Given an integer n, return the number of trailing zeroes in n!.
  * Your solution should be in logarithmic time complexity.
+ *
+ * hint: find how many 5, 5^2, 5^3 in n
+ *       because 0 is 2*5, and 2 is enough
  */
 public class Q172FactorialTrailingZeroes {
     public static int trailingZeroes(int n) {

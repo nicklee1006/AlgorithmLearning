@@ -1,7 +1,7 @@
 package easy;
 
 /**
- * 231. Power of Two
+ * 2018.5.8 Question 231. Power of Two
  * https://leetcode.com/problems/power-of-two/discuss/63966/4-different-ways-to-solve-Iterative-Recursive-Bit-operation-Math
  * <p>
  * Given an integer, write a function to determine if it is a power of two.

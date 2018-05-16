@@ -5,6 +5,9 @@ package easy;
  * https://leetcode.com/problems/power-of-two/discuss/63966/4-different-ways-to-solve-Iterative-Recursive-Bit-operation-Math
  * <p>
  * Given an integer, write a function to determine if it is a power of two.
+ *
+ * hint: there are only one '1' in the bit
+ * https://leetcode.com/problems/power-of-two/discuss/63974/Using-nand(n-1)-trick
  */
 public class Q231PowerOfTwo {
     public static boolean isPowerOfTwo(int n) {

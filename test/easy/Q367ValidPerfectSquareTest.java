@@ -1,0 +1,16 @@
+package easy;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+public class Q367ValidPerfectSquareTest {
+
+    @Test
+    public void isPerfectSquare() {
+        Assert.assertTrue(Q367ValidPerfectSquare.isPerfectSquare(16));
+        Assert.assertFalse(Q367ValidPerfectSquare.isPerfectSquare(14));
+        Assert.assertFalse(Q367ValidPerfectSquare.isPerfectSquare(808201));
+    }
+}

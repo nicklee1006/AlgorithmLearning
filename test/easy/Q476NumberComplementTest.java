@@ -1,0 +1,15 @@
+package easy;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+public class Q476NumberComplementTest {
+
+    @Test
+    public void findComplement() {
+        Assert.assertEquals(2, Q476NumberComplement.findComplement(5));
+        Assert.assertEquals(0, Q476NumberComplement.findComplement(1));
+    }
+}

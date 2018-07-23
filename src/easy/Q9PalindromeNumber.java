@@ -1,9 +1,15 @@
 package easy;
 
 /**
- * 2018.3.17
- * Question 9: Palindrome Number
+ * 2018.3.17 Question 9: Palindrome Number
  * https://leetcode.com/problems/palindrome-number/
+ *
+ * Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward
+ * as forward.
+ *
+ * 1. get how many digit of the number
+ *  1.1 int length = String.valueOf(number).length()
+ * 2. get (1, length), (2, length-1)th digit, see if they are same
  */
 public class Q9PalindromeNumber {
     public static boolean isPalindrome(int x) {

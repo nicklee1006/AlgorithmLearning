@@ -4,9 +4,20 @@ import util.ListNode;
 import java.math.BigDecimal;
 
 /**
- * 2018.3.15
- * Question 2: Add Two Numbers
+ * 2018.3.15 Question 2: Add Two Numbers
  * https://leetcode.com/problems/add-two-numbers/description/
+ *
+ * You are given two non-empty linked lists representing two non-negative integers. The digits are stored
+ * in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a
+ * linked list.
+ *
+ * You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+ *
+ * 1. traverse the linked list
+ * 2. use StringBuilder.reverse to get the numbers
+ * 3. add numbers
+ * 4. convert to string, and reverse
+ * 5. construct linked list
  */
 public class Q2AddTwoNumbers {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {

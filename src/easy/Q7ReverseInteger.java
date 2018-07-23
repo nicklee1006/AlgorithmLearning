@@ -1,9 +1,17 @@
 package easy;
 
 /**
- * 2018.3.16
- * Question 7: Reverse Integer
+ * 2018.3.16 Question 7: Reverse Integer
  * https://leetcode.com/problems/reverse-integer/description/
+ *
+ * Given a 32-bit signed integer, reverse digits of an integer.
+ *
+ * 1. check if it is < 0
+ *  1.1 if < 0, remove '-', keep a record
+ * 2. convert to string, and reverse it
+ * 3. remove '0' at the beginning
+ * 4. add back '-' if necessary
+ * 5. check if it > MAX_VALUE or < MIN_VALUE
  */
 public class Q7ReverseInteger {
     public static int reverse(int x) {

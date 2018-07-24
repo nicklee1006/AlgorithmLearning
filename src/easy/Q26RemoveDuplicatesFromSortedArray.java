@@ -1,9 +1,19 @@
 package easy;
 
 /**
- * 2018.3.22
- * Question 26: Remove Duplicates from Sorted Array
+ * 2018.3.22 Question 26: Remove Duplicates from Sorted Array
  * https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+ *
+ * Given a sorted array nums, remove the duplicates in-place such that each element appear only once and
+ * return the new length.
+ *
+ * Do not allocate extra space for another array, you must do this by modifying the input array in-place with
+ * O(1) extra memory.
+ *
+ * Solution:
+ * 1. loop array
+ *  1.1 maintain an index of the length of result
+ *  1.2 if current value != next value, give current value to result[index-1]
  */
 public class Q26RemoveDuplicatesFromSortedArray {
     public static int removeDuplicates(int[] nums) {

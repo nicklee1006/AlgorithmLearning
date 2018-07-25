@@ -1,9 +1,15 @@
 package easy;
 
 /**
- * 2018.3.24
- * Question 28: Implement strStr()
+ * 2018.3.24 Question 28: Implement strStr()
  * https://leetcode.com/problems/implement-strstr/
+ *
+ * Implement strStr()
+ * Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+ *
+ * Solution:
+ * 1. check length of haystack and needle
+ * 2. use two loop
  */
 public class Q28ImplementstrStr {
     public static int strStr(String haystack, String needle) {

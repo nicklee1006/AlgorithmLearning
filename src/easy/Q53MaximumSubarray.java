@@ -1,9 +1,14 @@
 package easy;
 
 /**
- * 2018.3.26
- * Question 53: Maximum Subarray
+ * 2018.3.26 Question 53: Maximum Subarray
  * https://leetcode.com/problems/maximum-subarray/description/
+ *
+ * Given an integer array nums, find the contiguous subarray (containing at least one number) which has the
+ * largest sum and return its sum.
+ *
+ * Solution
+ * 1. scan from left to right, keep add to the sum, until sum < 0, reset the sum.
  */
 public class Q53MaximumSubarray {
     public static int maxSubArray(int[] nums) {

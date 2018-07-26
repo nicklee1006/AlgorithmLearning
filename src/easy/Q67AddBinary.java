@@ -10,6 +10,10 @@ package easy;
  * a = "11"
  * b = "1"
  * Return "100".
+ *
+ * Solution
+ * 1. Calculate carry for each digit: (n1+n2+carry)/2;
+ * 2. Calculate each digit: (x+y+carry)%2
  */
 public class Q67AddBinary {
     public static String addBinary(String a, String b) {

@@ -7,6 +7,11 @@ import util.TreeNode;
  * https://leetcode.com/problems/symmetric-tree/description/
  *
  * Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
+ *
+ * Solution
+ * 1. Similar to Q100
+ * 2. if all null, true
+ * 3. if only one null, false
  */
 public class Q101SymmetricTree {
     public static boolean isSymmetric(TreeNode root) {

@@ -7,7 +7,13 @@ import util.TreeNode;
  * https://leetcode.com/problems/same-tree/description/
  *
  * Given two binary trees, write a function to check if they are the same or not.
- * Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
+ * Two binary trees are considered the same if they are structurally identical and the nodes have the
+ * same value.
+ *
+ * Solution
+ * 1. if all null, true
+ * 2. if only one null, false,
+ * 3. recursive
  */
 public class Q100SameTree {
     public static boolean isSameTree(TreeNode p, TreeNode q) {

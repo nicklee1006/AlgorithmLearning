@@ -11,7 +11,12 @@ import java.util.Queue;
  * 2018.4.8  Binary Tree Level Order Traversal II
  * https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/
  *
- * Given a binary tree, return the bottom-up level order traversal of its nodes' values. (ie, from left to right, level by level from leaf to root).
+ * Given a binary tree, return the bottom-up level order traversal of its nodes' values. (ie, from left
+ * to right, level by level from leaf to root).
+ *
+ * Solution
+ * 1. Reverse order of bfs
+ * 2. use queue for bfs
  */
 public class Q107BinaryTreeLevelOrderTraversalII {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {

@@ -8,6 +8,10 @@ import java.util.List;
  * https://leetcode.com/problems/pascals-triangle/description/
  *
  * Given numRows, generate the first numRows of Pascal's triangle.
+ *
+ * Solution
+ * 1. add first and second row by default
+ * 2. Construct by rule, R(n-i) = R((n-1)-i) + R((n-1)-(i-1))
  */
 public class Q118PascalTriangle {
     public static List<List<Integer>> generate(int numRows) {

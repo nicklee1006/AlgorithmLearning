@@ -7,7 +7,14 @@ import util.TreeNode;
  * https://leetcode.com/problems/minimum-depth-of-binary-tree/description/
  *
  * Given a binary tree, find its minimum depth.
- * The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
+ * The minimum depth is the number of nodes along the shortest path from the root node down to the
+ * nearest leaf node.
+ *
+ * Solution
+ * 1. Recursive, check left and right
+ * 2. If left = 0, return 1+right
+ * 3. If right = 0, return 1+left
+ * 4. Else, return min(left, right)
  */
 public class Q111MinimumDepthOfBinaryTree {
     public int minDepth(TreeNode root) {

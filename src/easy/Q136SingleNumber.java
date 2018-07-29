@@ -7,9 +7,12 @@ package easy;
  * Given an array of integers, every element appears twice except for one. Find that single one.
  *
  * Note:
- * Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
+ * Your algorithm should have a linear runtime complexity. Could you implement it without using extra
+ * memory?
  *
- * Use XOR(commutative), N1^N1^N2^N2^N3 = N3
+ * Solution:
+ * 1. Use XOR(commutative), N1^N1^N2^N2^N3 = N3
+ * 2. The one left is the answer
  */
 public class Q136SingleNumber {
     public static int singleNumber(int[] nums) {

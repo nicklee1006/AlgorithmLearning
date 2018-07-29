@@ -9,6 +9,9 @@ import java.util.List;
  *
  * Given an index kth, return the kth row of the Pascal's triangle.
  * Could you optimize your algorithm to use only O(k) extra space?
+ *
+ * Solution
+ * 1. Same as Q118
  */
 public class Q119PascalTriangleII {
     public static List<Integer> getRow(int rowIndex) {

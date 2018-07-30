@@ -12,6 +12,11 @@ import java.util.Stack;
  * pop() -- Removes the element on top of the stack.
  * top() -- Get the top element.
  * getMin() -- Retrieve the minimum element in the stack.
+ *
+ * Solution
+ * 1. Keep track min value
+ * 2. If new value pushed is min, then push old min first, and update min
+ * 3. If pop min, update min
  */
 public class Q155MinStack {
     private int min = Integer.MAX_VALUE;

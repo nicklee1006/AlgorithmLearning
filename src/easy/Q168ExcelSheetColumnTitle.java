@@ -8,6 +8,13 @@ package easy;
  *
  * hint:
  * base 26 representation, similar when converting a number from base 10 to base 2
+ *
+ * Solution
+ * 1. Convert base-10 to base-26
+ * 2. While (n != 0)
+ *      temp = (n-1)%26
+ *      n = (n-1)/26
+ *      result += temp
  */
 public class Q168ExcelSheetColumnTitle {
     public static String convertToTitle(int n) {

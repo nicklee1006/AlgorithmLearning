@@ -9,6 +9,9 @@ package easy;
  *
  * hint: find how many 5, 5^2, 5^3 in n
  *       because 0 is 2*5, and 2 is enough
+ *
+ * Solution
+ * 1. Find out how many 5, 5^2, 5^3, 5^4.... are there in the n
  */
 public class Q172FactorialTrailingZeroes {
     public static int trailingZeroes(int n) {

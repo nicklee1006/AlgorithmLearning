@@ -6,6 +6,9 @@ package easy;
  * <p>
  * Given a column title as appear in an Excel sheet, return its corresponding column number.
  * AA -> 27
+ *
+ * Solution
+ * 1. revert to Q168, use formula
  */
 public class Q171ExcelSheetColumnNumber {
     public static int titleToNumber(String s) {

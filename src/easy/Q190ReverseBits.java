@@ -11,6 +11,12 @@ package easy;
  *
  * hint: Java bit manipulation: https://www.tutorialspoint.com/java/java_basic_operators.htm
  *
+ * Solution
+ * 1. The last bit of n need to shift left for 31 times
+ * 2. Get last bit of n
+ * 3. Right shift n for 1-bit
+ * 4. shift result to ledt
+ *
  */
 public class Q190ReverseBits {
     // you need treat n as an unsigned value

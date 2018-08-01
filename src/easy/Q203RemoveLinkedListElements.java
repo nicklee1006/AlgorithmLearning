@@ -7,6 +7,9 @@ import util.ListNode;
  * https://leetcode.com/problems/remove-linked-list-elements/description/
  *
  * Remove all elements from a linked list of integers that have value val.
+ *
+ * Solution
+ * 1. Two pointers, current and previous
  */
 public class Q203RemoveLinkedListElements {
     public static ListNode removeElements(ListNode head, int val) {

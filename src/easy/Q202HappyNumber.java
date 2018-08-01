@@ -13,6 +13,13 @@ import java.util.Set;
  * replace the number by the sum of the squares of its digits, and repeat the process until the number
  * equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those
  * numbers for which this process ends in 1 are happy numbers.
+ *
+ * Solution
+ * 1. Use set to record number meet, if a number has meet before, then it's a loop, return false
+ * 2. Get every digit of a number
+ *      while (n > 0)
+ *          digit = n % 10
+ *          n = n / 10
  */
 public class Q202HappyNumber {
     public static boolean isHappy(int n) {

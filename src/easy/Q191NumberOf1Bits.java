@@ -4,7 +4,12 @@ package easy;
  * 2018.4.29 Question 191: Number of 1 Bits
  * https://leetcode.com/problems/number-of-1-bits/description/
  *
- * Write a function that takes an unsigned integer and returns the number of '1' bits it has (also known as the Hamming weight).
+ * Write a function that takes an unsigned integer and returns the number of '1' bits it has
+ * (also known as the Hamming weight).
+ *
+ * Solution
+ * 1. & last digit with 1
+ * 2. Right shift
  *
  */
 public class Q191NumberOf1Bits {

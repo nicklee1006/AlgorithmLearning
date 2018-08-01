@@ -8,6 +8,10 @@ package easy;
  *
  * hint: Sieve of Eratosthenes method
  * https://www.geeksforgeeks.org/sieve-of-eratosthenes/
+ *
+ * Solution
+ * 1. Use an array a to indicate 1 - n, not prime
+ * 2. 2 for loop (i, j),  mark a[k] not prime, if k = i*j (i, j from 2 - n)
  */
 public class Q204CountPrimes {
     public static int countPrimes(int n) {

@@ -13,6 +13,9 @@ import java.util.Map;
  * of characters. No two characters may map to the same character but a character may map to itself.
  * Note:
  * You may assume both s and t have the same length.
+ *
+ * Solution
+ * 1. Use Map to store each character and it's first index of appearance
  */
 public class Q205IsomorphicStrings {
     public static boolean isIsomorphic(String s, String t) {

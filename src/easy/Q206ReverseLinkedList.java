@@ -7,6 +7,10 @@ import util.ListNode;
  * https://leetcode.com/problems/reverse-linked-list/description/
  *
  * Reverse a singly linked list.
+ *
+ * Solution
+ * 1. Exchange current.next and previous
+ * 2. Move current = current.next
  */
 public class Q206ReverseLinkedList {
     public static ListNode reverseList(ListNode head) {

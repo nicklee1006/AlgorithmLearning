@@ -10,6 +10,10 @@ import java.util.Queue;
  * https://leetcode.com/problems/invert-binary-tree/description/
  *
  * Invert a binary tree.
+ *
+ * Solution
+ * 1. BFS, using Queue
+ * 2. Sway the left and right child
  */
 public class Q226InvertBinaryTree {
     public TreeNode invertTree(TreeNode root) {

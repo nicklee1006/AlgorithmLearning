@@ -7,6 +7,11 @@ import util.ListNode;
  * https://leetcode.com/problems/palindrome-linked-list/description/
  *
  * Given a singly linked list, determine if it is a palindrome.
+ *
+ * 1. find the middle point of the list
+ *  1.1 2 pointers, one move 1 step, one move 2 steps
+ * 2. reverse the second half of the list
+ * 3. compare the first half and second half
  */
 public class Q234PalindromeLinkedList {
     public static boolean isPalindrome(ListNode head) {

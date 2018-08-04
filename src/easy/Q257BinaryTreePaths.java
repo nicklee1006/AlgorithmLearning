@@ -10,6 +10,9 @@ import java.util.List;
  * https://leetcode.com/problems/binary-tree-paths/description/
  *
  * Given a binary tree, return all root-to-leaf paths.
+ *
+ * Solution
+ * 1. DFS
  */
 public class Q257BinaryTreePaths {
     public List<String> binaryTreePaths(TreeNode root) {

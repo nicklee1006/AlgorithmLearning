@@ -6,6 +6,10 @@ package easy;
  *
  * Write a program to check whether a given number is an ugly number.
  * Ugly numbers are positive numbers whose prime factors only include 2, 3, 5.
+ *
+ * Solution
+ * 1. for loop for 2,3,5
+ * 2. check if remaining is 1
  */
 public class Q263UglyNumber {
     public static boolean isUgly(int num) {

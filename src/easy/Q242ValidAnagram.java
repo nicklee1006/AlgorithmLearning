@@ -8,11 +8,18 @@ import java.util.Map;
  * https://leetcode.com/problems/valid-anagram/description/
  *
  * Given two strings s and t , write a function to determine if t is an anagram of s.
+ * Anagram, string consist of same characters
+ * e.g: s = "anagram", t = "nagaram"
  *
  * hint:
  * The idea is simple. It creates a size 26 int arrays as buckets for each letter in alphabet.
  * It increments the bucket value with String s and decrement with string t. So if they are
  * anagrams, all buckets should remain with initial value which is zero.
+ *
+ * Solution
+ * 1. Create 26 char array
+ * 2. Increase when meet corresponding char in s, and decrease in t
+ * 3. Check if at end all array element is zero
  */
 @SuppressWarnings("Duplicates")
 public class Q242ValidAnagram {

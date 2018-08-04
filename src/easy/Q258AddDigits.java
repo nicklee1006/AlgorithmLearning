@@ -6,6 +6,7 @@ package easy;
  *
  * Given a non-negative integer num, repeatedly add all its digits until the result has only one digit.
  * Could you do it without any loop/recursion in O(1) runtime?
+ * e.g 38 -> 3+8=11 -> 1+1=2
  *
  * hint
  * https://en.wikipedia.org/wiki/Digital_root#Congruence_formula

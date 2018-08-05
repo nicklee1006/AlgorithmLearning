@@ -10,6 +10,10 @@ package easy;
  *
  * You must do this in-place without making a copy of the array.
  * Minimize the total number of operations.
+ *
+ * Solution
+ * 1. Use another pointer to indicate how many non-zeros
+ * 2. All after index set to 0
  */
 public class Q283MoveZeroes {
     public static void moveZeroes(int[] nums) {

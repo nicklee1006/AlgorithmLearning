@@ -11,6 +11,11 @@ import java.util.Map;
  *
  * Here follow means a full match, such that there is a bijection between a letter in pattern
  * and a non-empty word in str.
+ *
+ * Solution
+ * 1. not equal length, return false
+ * 2. Use 2 map to store char and it's first occurance index
+ * 3. Compare index
  */
 public class Q290WordPattern {
     public static boolean wordPattern(String pattern, String str) {

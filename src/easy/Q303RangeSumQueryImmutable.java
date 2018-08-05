@@ -8,6 +8,9 @@ package easy;
  * Note:
  * You may assume that the array does not change.
  * There are many calls to sumRange function.
+ *
+ * Solution
+ * 1.
  */
 public class Q303RangeSumQueryImmutable {
     private int[] numsSum;

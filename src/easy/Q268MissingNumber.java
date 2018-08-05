@@ -13,6 +13,10 @@ import java.util.Arrays;
  *
  * hint:
  * https://leetcode.com/problems/missing-number/discuss/69786/3-different-ideas:-XOR-SUM-Binary-Search.-Java-code
+ *
+ * Solution
+ * 1. Use array, index indicate number
+ * 2. Set to true if have that number
  */
 public class Q268MissingNumber {
     public static int missingNumber(int[] nums) {

@@ -8,6 +8,9 @@ package easy;
  *
  * Follow up:
  * Could you do it without using any loop / recursion?
+ *
+ * Solution
+ * 1. Same as Power of Two, Question 231
  */
 public class Q326PowerOfThree {
     public static boolean isPowerOfThree(int n) {

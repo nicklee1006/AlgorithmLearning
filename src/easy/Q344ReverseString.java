@@ -11,6 +11,9 @@ package easy;
  *
  * hint:
  * https://www.geeksforgeeks.org/reverse-a-string-in-java-5-different-ways/
+ *
+ * Solution
+ * 1. StringBuilder.reverse()
  */
 public class Q344ReverseString {
     public static String reverseString(String s) {

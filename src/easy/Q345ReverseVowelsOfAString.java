@@ -16,6 +16,12 @@ import java.util.Set;
  *
  * Note:
  * The vowels does not include the letter "y".
+ *
+ * Solution:
+ * 1. Use bool array to indicate if the char is vowel
+ * 2. Use another stringBuilder to build temp string consist of vowel in the string
+ * 3. Reverse the temp string
+ * 4. Look at original string, if not vowel, insert original; if vowel, insert vowel string
  */
 public class Q345ReverseVowelsOfAString {
     public static String reverseVowels(String s) {

@@ -16,6 +16,10 @@ import java.util.Set;
  * Note:
  * Each element in the result must be unique.
  * The result can be in any order.
+ *
+ * Solution
+ * 1. first insert num1 into set
+ * 2. check num2, if set contains same number, insert to results
  */
 public class Q349IntersectionOfTwoArrays {
     public static int[] intersection(int[] nums1, int[] nums2) {

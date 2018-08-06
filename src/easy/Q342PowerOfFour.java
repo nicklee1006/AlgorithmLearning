@@ -10,6 +10,9 @@ package easy;
  * Given num = 16, return true. Given num = 5, return false.
  *
  * Follow up: Could you solve it without loops/recursion?
+ *
+ * Solution
+ * 1. Same as Power of Three, Question 326
  */
 public class Q342PowerOfFour {
     public static boolean isPowerOfFour(int num) {

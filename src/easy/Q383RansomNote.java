@@ -9,6 +9,11 @@ package easy;
  * otherwise, it will return false.
  *
  * Each letter in the magazine string can only be used once in your ransom note.
+ *
+ * Solution
+ * 1. Use an array to store the number of each char in magazin
+ * 2. Reduce number once meet the char in ransomNote
+ * 3. If any number cause < 0, return false
  */
 public class Q383RansomNote {
     public static boolean canConstruct(String ransomNote, String magazine) {

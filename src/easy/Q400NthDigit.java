@@ -8,6 +8,13 @@ package easy;
  * <p>
  * Note:
  * n is positive and will fit within the range of a 32-bit signed integer (n < 231).
+ *
+ * Solution***
+ * 1. Find the length of the number which n-th digit lies in
+ *  1.1 10, 100, 1000...
+ * 2. Get the actual number
+ *  2.1 get 21,333 etc
+ * 3. get the digit of actual number
  */
 public class Q400NthDigit {
     public static int findNthDigit(int n) {

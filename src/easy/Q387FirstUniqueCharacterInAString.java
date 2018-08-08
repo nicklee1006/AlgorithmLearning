@@ -6,6 +6,11 @@ package easy;
  *
  * Given a string, find the first non-repeating character in it and return it's index.
  * If it doesn't exist, return -1.
+ *
+ * Solution
+ * 1. 2 loops, log(n)
+ * 2. Construct a array, index represent the char, value for occurrence
+ * 3. Find the first char with occurrence 1
  */
 public class Q387FirstUniqueCharacterInAString {
     public static int firstUniqChar(String s) {

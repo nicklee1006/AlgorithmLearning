@@ -12,6 +12,12 @@ import java.util.Map;
  * This is case sensitive, for example "Aa" is not considered a palindrome here.
  * Note:
  * Assume the length of given string will not exceed 1,010.
+ *
+ * Solution
+ * 1. Count the occurence of each char
+ * 2. If the count is even, add to result
+ * 3. Add the largest odd count
+ * 4. Add other odd count - 1
  */
 @SuppressWarnings("ALL")
 public class Q409LongestPalindrome {

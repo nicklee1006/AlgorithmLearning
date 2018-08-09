@@ -16,6 +16,11 @@ package easy;
  *
  * hint:
  * https://leetcode.com/problems/convert-a-number-to-hexadecimal/discuss/89253/Simple-Java-solution-with-comment
+ *
+ * Solution
+ * 1. Each time take a look at the last digits of the number, and convert it to a hex char
+ * 2. Shift the number to right for 4 bits
+ * 3. Do again until no bits left
  */
 public class Q405ConvertANumberToHexadecimal {
     public static String toHex(int num) {

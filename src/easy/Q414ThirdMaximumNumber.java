@@ -6,6 +6,12 @@ package easy;
  *
  * Given a non-empty array of integers, return the third maximum number in this array.
  * If it does not exist, return the maximum number. The time complexity must be in O(n).
+ *
+ * Solution
+ * 1. One loop
+ * 2. max1, max2, max3
+ * 3. keep fill max1, 2, 3
+ * 4. return max3 or max1
  */
 public class Q414ThirdMaximumNumber {
     public static int thirdMax(int[] nums) {

@@ -3,15 +3,19 @@ package easy;
 /**
  * 2018.5.24 Question 415. Add Strings
  * https://leetcode.com/problems/add-strings/description/
- * <p>
+ *
  * Given two non-negative integers num1 and num2 represented as string, return the sum of num1 and num2.
- * <p>
+ *
  * Note:
- * <p>
  * The length of both num1 and num2 is < 5100.
  * Both num1 and num2 contains only digits 0-9.
  * Both num1 and num2 does not contain any leading zero.
  * You must not use any built-in BigInteger library or convert the inputs to integer directly.
+ *
+ * Solution
+ * 1. sum = n1 + n2 + carry
+ * 2. carry = sum > 9? 1 : 0
+ * 3. If carry = 1 at last, insert 1 at front
  */
 public class Q415AddStrings {
     public static String addStrings(String num1, String num2) {

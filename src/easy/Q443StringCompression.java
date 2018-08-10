@@ -14,6 +14,10 @@ package easy;
  *
  * hint:
  * https://leetcode.com/problems/string-compression/discuss/92559/Simple-Easy-to-Understand-Java-solution
+ *
+ * Solution
+ * 1. two index, one for result and one for current
+ * 2. keep track of counting
  */
 public class Q443StringCompression {
     public static int compress(char[] chars) {

@@ -8,6 +8,11 @@ package easy;
  * must have exactly k coins.
  * Given n, find the total number of full staircase rows that can be formed.
  * n is a non-negative integer and fits within the range of a 32-bit signed integer.
+ *
+ * Solution
+ * 1. 1+2+3+4+...x < n
+ * 2. (x*(x+1))/2 < x
+ * 3. solve the equation
  */
 public class Q441ArrangingCoins {
     public static int arrangeCoins(int n) {

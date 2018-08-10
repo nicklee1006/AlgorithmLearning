@@ -8,8 +8,17 @@ import java.util.List;
  * https://leetcode.com/problems/find-all-anagrams-in-a-string/description/
  *
  * Given a string s and a non-empty string p, find all the start indices of p's anagrams in s.
- * Strings consists of lowercase English letters only and the length of both strings s and p will not be larger than 20,100.
+ * Strings consists of lowercase English letters only and the length of both strings s and p will not be
+ * larger than 20,100.
  * The order of output does not matter.
+ *
+ * Anagram strings: consists of same characters
+ *
+ * Solution
+ * 1. one for-loop, scan s, each time scan length p
+ * 2. to test anagram
+ *   2.1 use array to count char occurence in s, then minus each char in p
+ *   2.2 if remaining array is 0, then true
  */
 public class Q438FindAllAnagramsInAString {
     public static List<Integer> findAnagrams(String s, String p) {

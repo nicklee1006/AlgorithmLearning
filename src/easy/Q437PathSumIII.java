@@ -14,6 +14,9 @@ import util.TreeNode;
  * <p>
  * hint:
  * https://leetcode.com/problems/path-sum-iii/discuss/91889/Simple-Java-DFS
+ *
+ * Solution
+ * 1. DFS
  */
 public class Q437PathSumIII {
     public int pathSum(TreeNode root, int sum) {

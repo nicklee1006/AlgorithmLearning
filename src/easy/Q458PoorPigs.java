@@ -19,6 +19,9 @@ package easy;
  *
  * hint:
  * https://leetcode.com/problems/poor-pigs/discuss/94266/Another-explanation-and-solution
+ *
+ * Solution
+ * 1.*****don't understand
  */
 public class Q458PoorPigs {
     public static int poorPigs(int buckets, int minutesToDie, int minutesToTest) {

@@ -12,6 +12,11 @@ import java.util.Map;
  * of the tuple matters).
  * Find the number of boomerangs. You may assume that n will be at most 500 and coordinates of
  * points are all in the range [-10000, 10000] (inclusive).
+ *
+ * Solution
+ * 1. Fix start point, loop all other point, get distance
+ * 2. since order matters, number = count * (count - 1)
+ * 3. Loop all start points
  */
 public class Q447NumberOfBoomerangs {
     public static int numberOfBoomerangs(int[][] points) {

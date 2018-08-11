@@ -12,6 +12,11 @@ import java.util.List;
  * Find all the elements of [1, n] inclusive that do not appear in this array.
  * Could you do it without extra space and in O(n) runtime? You may assume the returned list
  * does not count as extra space.
+ *
+ * Solution
+ * 1. In the first iteration, make nums[index] = -nums[index]
+ *    All numbers met before will be marked negative
+ * 2. Second iteration, if num[index] > 0, means we haven't met index before, add index to the result
  */
 public class Q448FindAllNumbersDisappearedInAnArray {
     public static List<Integer> findDisappearedNumbers(int[] nums) {

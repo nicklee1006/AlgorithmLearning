@@ -16,6 +16,11 @@ import java.util.Arrays;
  * Note:
  * You may assume the greed factor is always positive.
  * You cannot assign more than one cookie to one child.
+ *
+ * Solution
+ * 1. Sort g and s
+ * 2. Start from s[0],
+ * 3. try to content the smaller g as many as possible
  */
 public class Q455AssignCookies {
     public static int findContentChildren(int[] g, int[] s) {

@@ -8,6 +8,9 @@ package easy;
  * corresponding bits are different.
  *
  * Given two integers x and y, calculate the Hamming distance.
+ *
+ * Solution
+ * 1. ^ XOR
  */
 public class Q461HammingDistance {
     public static int hammingDistance(int x, int y) {

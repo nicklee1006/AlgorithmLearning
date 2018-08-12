@@ -11,6 +11,10 @@ package easy;
  * connected to the water around the island). One cell is a square with side length 1. The
  * grid is rectangular, width and height don't exceed 100. Determine the perimeter of the
  * island.
+ *
+ * Solution
+ * 1. Only one island
+ * 2. Each 1 grid, check up, down, left, right
  */
 public class Q463IslandPerimeter {
     public static int islandPerimeter(int[][] grid) {

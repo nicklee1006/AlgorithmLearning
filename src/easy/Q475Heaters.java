@@ -20,6 +20,11 @@ import java.util.Arrays;
  * Positions of houses and heaters you are given are non-negative and will not exceed 10^9.
  * As long as a house is in the heaters' warm radius range, it can be warmed.
  * All the heaters follow your radius standard and the warm radius will the same.
+ *
+ * Solution
+ * 1. Sort house and heaters
+ * 2. For each house, find it's closest heater distance
+ * 3. Return the max distance
  */
 public class Q475Heaters {
     public static int findRadius(int[] houses, int[] heaters) {

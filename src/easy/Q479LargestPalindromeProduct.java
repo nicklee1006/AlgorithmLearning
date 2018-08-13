@@ -17,6 +17,9 @@ package easy;
  * The range of n is [1,8].
  *
  * hint: https://leetcode.com/problems/largest-palindrome-product/discuss/96303/Java-Solution-with-explanation
+ *
+ * Solution
+ * 1. Not understand
  */
 public class Q479LargestPalindromeProduct {
     //TODO solve this problem

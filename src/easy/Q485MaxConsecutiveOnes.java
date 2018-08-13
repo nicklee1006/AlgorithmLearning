@@ -9,6 +9,10 @@ package easy;
  *
  * The input array will only contain 0 and 1.
  * The length of input array is a positive integer and will not exceed 10,000
+ *
+ * Solution
+ * 1. for loop, if num[n] and num[n-1] all = 1, count++
+ * 2. if only num[n] = 1, reset count = 1
  */
 public class Q485MaxConsecutiveOnes {
     public static int findMaxConsecutiveOnes(int[] nums) {

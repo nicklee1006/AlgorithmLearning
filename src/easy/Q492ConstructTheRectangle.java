@@ -17,6 +17,10 @@ package easy;
  * Note:
  * The given area won't exceed 10,000,000 and is a positive integer
  * The web page's width and length you designed must be positive integers.
+ *
+ * Solution
+ * 1. get t = sqrt(area)
+ * 2. find the closest number from t that area % t = 0
  */
 public class Q492ConstructTheRectangle {
     public static int[] constructRectangle(int area) {

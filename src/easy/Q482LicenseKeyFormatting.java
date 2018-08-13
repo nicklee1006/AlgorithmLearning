@@ -14,6 +14,10 @@ package easy;
  *
  * Given a non-empty string S and a number K, format the string according to the rules
  * described above.
+ *
+ * Solution
+ * 1. Remove all '-'
+ * 2. For loop, use stringBuilder, construct from back to front
  */
 public class Q482LicenseKeyFormatting {
     public static String licenseKeyFormatting(String S, int K) {

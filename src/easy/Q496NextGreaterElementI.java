@@ -12,6 +12,11 @@ import java.util.Map;
  *
  * The Next Greater Number of a number x in nums1 is the first greater number to its right in nums2. If it does
  * not exist, output -1 for this number.
+ *
+ * Solution
+ * 1. use map to store key-index map of num2
+ * 2. loop num1, for each element, get the index+1
+ * 3. find the first index that num2[index] > num1[i]
  */
 public class Q496NextGreaterElementI {
     public static int[] nextGreaterElement(int[] nums1, int[] nums2) {

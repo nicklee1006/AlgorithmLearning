@@ -8,6 +8,11 @@ package easy;
  * except itself.
  *
  * Now, given an integer n, write a function that returns true when it is a perfect number and false when it is not.
+ *
+ * Solution
+ * 1. get t = sqrt(num)
+ * 2. from 2 to t, find all divisors of num
+ * 3. sum up
  */
 public class Q507PerfectNumber {
     public static boolean checkPerfectNumber(int num) {

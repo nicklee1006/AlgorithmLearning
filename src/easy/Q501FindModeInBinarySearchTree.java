@@ -16,6 +16,12 @@ import java.util.*;
  * The left subtree of a node contains only nodes with keys less than or equal to the node's key.
  * The right subtree of a node contains only nodes with keys greater than or equal to the node's key.
  * Both the left and right subtrees must also be binary search trees.
+ *
+ * Solution
+ * 1. Traverse through tree, DFS
+ * 2. use map to count the occurence of each element
+ * 3. find the biggest element
+ * 4. find corresponding node
  */
 public class Q501FindModeInBinarySearchTree {
     public int[] findMode(TreeNode root) {

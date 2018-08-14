@@ -8,6 +8,11 @@ import java.util.*;
  *
  * Given a List of words, return the words that can be typed using letters of alphabet on only one row's of
  * American keyboard like the image below.
+ *
+ * Solution
+ * 1. construct array contains char in one row
+ * 2. use map to map each char with it's row index
+ * 3. loop all words to see if all char in the word has the same row index
  */
 public class Q500KeyboardRow {
     public static String[] findWords(String[] words) {

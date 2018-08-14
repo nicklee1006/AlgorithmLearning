@@ -5,6 +5,9 @@ package easy;
  * https://leetcode.com/problems/base-7/description/
  *
  * Given an integer, return its base 7 string representation.
+ *
+ * Solution
+ * 1. recursive
  */
 public class Q504Base7 {
     public static String convertToBase7(int num) {

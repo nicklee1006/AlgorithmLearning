@@ -10,6 +10,12 @@ import java.util.Map;
  *
  * Given scores of N athletes, find their relative ranks and the people with the top three highest scores, who
  * will be awarded medals: "Gold Medal", "Silver Medal" and "Bronze Medal".
+ *
+ * Solution
+ * 1. make a copy of nums
+ * 2. sort the copy
+ * 3. use map to map score and ranking
+ * 4. loop num, basedo n score find corresponding ranking
  */
 public class Q506RelativeRanks {
     public static String[] findRelativeRanks(int[] nums) {

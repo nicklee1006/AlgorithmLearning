@@ -6,7 +6,12 @@ import util.TreeNode;
  * 2018.6.9 Question 530. Minimum Absolute Difference in BST
  * https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/
  *
- * Given a binary search tree with non-negative values, find the minimum absolute difference between values of any two nodes.
+ * Given a binary search tree with non-negative values, find the minimum absolute difference between
+ * values of any two nodes.
+ *
+ * Solution
+ * 1. Inorder traversal
+ * 2. Didn't fully understand!!!
  */
 public class Q530MinimumAbsoluteDifferenceInBST {
     int min = Integer.MAX_VALUE;

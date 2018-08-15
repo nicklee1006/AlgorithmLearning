@@ -12,6 +12,14 @@ package easy;
  * All letters in this word are not capitals, like "leetcode".
  * Only the first letter in this word is capital if it has more than one letter, like "Google".
  * Otherwise, we define that this word doesn't use capitals in a right way.
+ *
+ * Solution
+ * 1. Find out if the first char is capitals
+ * 2. If yes
+ *  2.1 Find if the second if capital
+ *      2.1.1 The rest of the chars must be the same as the second char
+ * 3. If no
+ *  3.1 The rest of char must not be capitals
  */
 public class Q520DetectCapital {
     public static boolean detectCapitalUse(String word) {

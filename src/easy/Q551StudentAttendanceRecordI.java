@@ -9,10 +9,13 @@ package easy;
  * 'A' : Absent.
  * 'L' : Late.
  * 'P' : Present.
- * A student could be rewarded if his attendance record doesn't contain more than one 'A' (absent) or more than
- * two continuous 'L' (late).
+ * A student could be rewarded if his attendance record doesn't contain more than one 'A' (absent) or more
+ * than two continuous 'L' (late).
  *
  * You need to return whether the student could be rewarded according to his attendance record.
+ *
+ * Solution
+ * 1. One for loop, reset L if meet A or P
  */
 public class Q551StudentAttendanceRecordI {
     public static boolean checkRecord(String s) {

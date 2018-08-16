@@ -6,6 +6,10 @@ package easy;
  *
  * Given a string, you need to reverse the order of characters in each word within a sentence while
  * still preserving whitespace and initial word order.
+ *
+ * Solution
+ * 1. Split the sentence by ' '
+ * 2. Reverse each word
  */
 public class Q557ReverseWordsInAStringIII {
     public static String reverseWords(String s) {

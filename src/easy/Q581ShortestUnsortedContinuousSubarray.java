@@ -10,6 +10,10 @@ import java.util.Arrays;
  * ascending order, then the whole array will be sorted in ascending order, too.
  *
  * You need to find the shortest such subarray and output its length.
+ *
+ * Solution
+ * 1. Sort the array and copy to another
+ * 2. Compare with original, find the begin and end index that original and sorted are different
  */
 public class Q581ShortestUnsortedContinuousSubarray {
     public static int findUnsortedSubarray(int[] nums) {

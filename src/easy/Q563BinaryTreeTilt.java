@@ -12,6 +12,9 @@ import util.TreeNode;
  * values and the sum of all right subtree node values. Null node has tilt 0.
  *
  * The tilt of the whole tree is defined as the sum of all nodes' tilt.
+ *
+ * Solution
+ * Can't understand*******
  */
 public class Q563BinaryTreeTilt {
     int result = 0;

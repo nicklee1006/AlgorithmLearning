@@ -15,6 +15,10 @@ import java.util.Map;
  * You need to help them find out their common interest with the least list index sum. If there is a choice
  * tie between answers, output all of them with no order requirement. You could assume there always exists
  * an answer.
+ *
+ * Solution
+ * 1. Use map to get string and it's index
+ * 2. get common string and sum their index, if min, add to result
  */
 public class Q599MinimumIndexSumOfTwoLists {
     public static String[] findRestaurant(String[] list1, String[] list2) {

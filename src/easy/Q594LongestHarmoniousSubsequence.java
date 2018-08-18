@@ -12,6 +12,10 @@ import java.util.Map;
  *
  * Now, given an integer array, you need to find the length of its longest harmonious subsequence among all
  * its possible subsequences.
+ *
+ * Solution
+ * 1. use Hashmap to count number and it's occurrences
+ * 2. For all keys, find max (count.get(key) + count.get(key+1))
  */
 public class Q594LongestHarmoniousSubsequence {
     public static int findLHS(int[] nums) {

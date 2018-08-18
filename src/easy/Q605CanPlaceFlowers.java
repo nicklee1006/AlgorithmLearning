@@ -14,6 +14,10 @@ package easy;
  * The input array won't violate no-adjacent-flowers rule.
  * The input array size is in the range of [1, 20000].
  * n is a non-negative integer which won't exceed the input array size.
+ *
+ * Solution
+ * 1. count the valid place
+ * 2. check prev and next, if both are 0, then can plant in this index i
  */
 public class Q605CanPlaceFlowers {
     public static boolean canPlaceFlowers(int[] flowerbed, int n) {

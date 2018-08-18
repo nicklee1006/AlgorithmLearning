@@ -11,6 +11,10 @@ package easy;
  *
  * You need to count and return the number of maximum integers in the matrix after performing all the
  * operations.
+ *
+ * Solution
+ * 1. found min #row and #col
+ * 2. return col * row
  */
 public class Q598RangeAdditionII {
     public static int maxCount(int m, int n, int[][] ops) {

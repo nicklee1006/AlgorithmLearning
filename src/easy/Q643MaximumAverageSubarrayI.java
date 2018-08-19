@@ -6,6 +6,11 @@ package easy;
  *
  * Given an array consisting of n integers, find the contiguous subarray of given length k that has the
  * maximum average value. And you need to output the maximum average value.
+ *
+ * Solution
+ * 1. get the average of first k elements
+ * 2. use for loop, remove previous number and add current element
+ * 3. get the max
  */
 public class Q643MaximumAverageSubarrayI {
     public static double findMaxAverage(int[] nums, int k) {

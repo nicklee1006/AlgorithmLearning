@@ -11,6 +11,13 @@ import java.util.Arrays;
  * Note:
  * The length of the given array will be in range [3,10^4] and all elements are in the range [-1000, 1000].
  * Multiplication of any three numbers in the input won't exceed the range of 32-bit signed integer.
+ *
+ * Solution
+ * 1. sort the array
+ * 2. get two results
+ *  2.1 last three numbers product
+ *  2.2 first two and last one numbers product
+ * 3. return the bigger one
  */
 public class Q628MaximumProductOfThreeNumbers {
     public static int maximumProduct(int[] nums) {

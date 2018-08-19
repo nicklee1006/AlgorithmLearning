@@ -15,6 +15,9 @@ import java.util.Queue;
  *
  * Note:
  * The range of node's value is in the range of 32-bit signed integer.
+ *
+ * Solution
+ * 1. BFS, use queue
  */
 public class Q637AverageOfLevelsInBinaryTree {
     public List<Double> averageOfLevels(TreeNode root) {

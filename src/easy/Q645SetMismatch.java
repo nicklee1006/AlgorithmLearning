@@ -14,6 +14,12 @@ import java.util.Set;
  * Given an array nums representing the data status of this set after the error. Your task is to firstly
  * find the number occurs twice and then find the number that is missing. Return them in the form of an
  * array.
+ *
+ * Solution
+ * 1. get the sum of 1-n
+ * 2. use a set, if some number can't be added, it is the duplicated
+ * 3. substract each number from sum
+ * 4. missing number is sum + duplicated number
  */
 public class Q645SetMismatch {
     public static int[] findErrorNums(int[] nums) {

@@ -11,6 +11,9 @@ package easy;
  *
  * hint:
  * https://leetcode.com/problems/non-decreasing-array/discuss/106826/JavaC++-Simple-greedy-like-solution-with-explanation
+ *
+ * Solution
+ * 1. Don't understand*****
  */
 public class Q665NonDecreasingArray {
     public static boolean checkPossibility(int[] nums) {

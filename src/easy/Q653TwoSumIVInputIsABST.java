@@ -11,6 +11,10 @@ import java.util.Set;
  *
  * Given a Binary Search Tree and a target number, return true if there exist two elements in the BST
  * such that their sum is equal to the given target.
+ *
+ * Solution
+ * 1. Use set to add met node's value
+ * 2. check if set contains k - node.val
  */
 public class Q653TwoSumIVInputIsABST {
     public boolean findTarget(TreeNode root, int k) {

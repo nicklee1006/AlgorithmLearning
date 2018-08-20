@@ -10,6 +10,10 @@ package easy;
  * The move sequence is represented by a string. And each move is represent by a character. The valid robot
  * moves are R (Right), L (Left), U (Up) and D (down). The output should be true or false representing
  * whether the robot makes a circle.
+ *
+ * Solution
+ * 1. Use array[2] to record the moves in horizontal and vertical direction
+ * 2. if result is 0 for both, then true
  */
 public class Q657JudgeRouteCircle {
     public static boolean judgeCircle(String moves) {

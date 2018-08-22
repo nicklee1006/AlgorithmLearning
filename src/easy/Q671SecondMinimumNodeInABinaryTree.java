@@ -14,6 +14,9 @@ import util.TreeNode;
  * value in the whole tree.
  *
  * If no such second minimum value exists, output -1 instead.
+ *
+ * Solution
+ * 1.
  */
 public class Q671SecondMinimumNodeInABinaryTree {
     public int findSecondMinimumValue(TreeNode root) {

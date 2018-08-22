@@ -6,6 +6,10 @@ package easy;
  *
  * Given a non-empty string s, you may delete at most one character. Judge whether you can make it a
  * palindrome.
+ *
+ * Solution
+ * 1. helper function to determine if the string is palindrome
+ * 2.
  */
 public class Q680ValidPalindromeII {
     public static boolean validPalindrome(String s) {

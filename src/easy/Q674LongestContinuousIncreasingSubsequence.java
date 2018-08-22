@@ -6,6 +6,9 @@ package easy;
  *
  * Given an unsorted array of integers, find the length of longest continuous increasing subsequence
  * (subarray).
+ *
+ * Solution
+ * 1. keep record of the longest one
  */
 public class Q674LongestContinuousIncreasingSubsequence {
     public static int findLengthOfLCIS(int[] nums) {

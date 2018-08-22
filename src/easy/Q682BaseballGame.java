@@ -17,6 +17,9 @@ import java.util.Stack;
  * Each round's operation is permanent and could have an impact on the round before and the round after.
  *
  * You need to return the sum of the points you could get in all the rounds.
+ *
+ * Solution
+ * 1. follow the instructions
  */
 public class Q682BaseballGame {
     public static int calPoints(String[] ops) {

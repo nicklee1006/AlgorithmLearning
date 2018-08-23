@@ -14,6 +14,11 @@ package easy;
  *
  * Note:
  * The length of A and B will be between 1 and 10000.
+ *
+ * Solution
+ * 1. use stringBuilder to repeatedly add A
+ * 2. check stringBuilder.indexOf(B)
+ * 3. if stringBuilder.length() > A.length + B.length, false
  */
 public class Q686RepeatedStringMatch {
     public static int repeatedStringMatch(String A, String B) {

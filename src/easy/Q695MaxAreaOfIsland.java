@@ -10,6 +10,10 @@ package easy;
  *
  * Find the maximum area of an island in the given 2D array. (If there is no island, the maximum area
  * is 0.)
+ *
+ * Solution
+ * 1. helper function to count area
+ * 2. recursive
  */
 public class Q695MaxAreaOfIsland {
     public static int maxAreaOfIsland(int[][] grid) {

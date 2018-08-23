@@ -18,6 +18,10 @@ import java.util.*;
  *
  * Now given the employee information of a company, and an employee id, you need to return the total
  * importance value of this employee and all his subordinates.
+ *
+ * Solution
+ * 1. Use hashmap to map employee and id
+ * 2. use queue to add employee
  */
 public class Q690EmployeeImportance {
     public int getImportance(List<Employee> employees, int id) {

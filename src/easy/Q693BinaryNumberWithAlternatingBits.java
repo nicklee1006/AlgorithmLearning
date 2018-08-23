@@ -6,6 +6,9 @@ package easy;
  *
  * Given a positive integer, check whether it has alternating bits: namely, if two adjacent bits will
  * always have different values.
+ *
+ * Solution
+ * 1. Integer.toBinaryString(n)
  */
 public class Q693BinaryNumberWithAlternatingBits {
     public static boolean hasAlternatingBits(int n) {

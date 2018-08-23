@@ -10,6 +10,9 @@ import util.TreeNode;
  * value. This path may or may not pass through the root.
  *
  * Note: The length of path between two nodes is represented by the number of edges between them.
+ *
+ * Solution
+ * 1. Not understand****
  */
 public class Q687LongestUnivaluePath {
     int length = 0;

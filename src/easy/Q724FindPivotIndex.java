@@ -11,6 +11,10 @@ package easy;
  *
  * If no such index exists, we should return -1. If there are multiple pivot indexes, you should
  * return the left-most pivot index.
+ *
+ * Solution
+ * 1. get the sum of total
+ * 2. loop through array, add to left and substract from right
  */
 public class Q724FindPivotIndex {
     public static int pivotIndex(int[] nums) {

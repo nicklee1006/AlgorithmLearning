@@ -11,6 +11,9 @@ package easy;
  *
  * hint:
  * https://leetcode.com/problems/count-binary-substrings/discuss/108625/PythonC++Java-Easy-and-Concise-with-Explanation
+ *
+ * Solution
+ * 1. ***Can't understand
  */
 public class Q696CountBinarySubstrings {
     public static int countBinarySubstrings(String s) {

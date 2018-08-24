@@ -11,6 +11,11 @@ import java.util.Set;
  * Given a list of strings words representing an English Dictionary, find the longest word in words
  * that can be built one character at a time by other words in words. If there is more than one
  * possible answer, return the longest word with the smallest lexicographical order.
+ *
+ * Solution
+ * 1. sort the array from short to long
+ * 2. add shorter words in a set
+ * 3. find the longest one
  */
 public class Q720LongestWordInDictionary {
     public static String longestWord(String[] words) {

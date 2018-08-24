@@ -15,6 +15,9 @@ import java.util.List;
  *
  * Given a lower and upper number bound, output a list of every possible self dividing number,
  * including the bounds if possible.
+ *
+ * Solution
+ * 1. follow definition
  */
 public class Q728SelfDividingNumbers {
     public static List<Integer> selfDividingNumbers(int left, int right) {

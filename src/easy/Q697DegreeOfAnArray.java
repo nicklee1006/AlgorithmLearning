@@ -12,6 +12,13 @@ import java.util.Map;
  *
  * Your task is to find the smallest possible length of a (contiguous) subarray of nums, that has the
  * same degree as nums.
+ *
+ * Solution
+ * 1. use 3 hashmap
+ *  1.1 count: record the occurence of each element
+ *  1.2 start: record the first appearance of each element
+ *  1.3 end:   record the last appearance of each element
+ * 2. get the element with highest degree, return end - start + 1
  */
 public class Q697DegreeOfAnArray {
     public static int findShortestSubArray(int[] nums) {

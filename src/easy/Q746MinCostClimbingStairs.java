@@ -9,6 +9,11 @@ package easy;
  * Once you pay the cost, you can either climb one or two steps. You need to find minimum cost to
  * reach the top of the floor, and you can either start from the step with index 0, or the step with
  * index 1.
+ *
+ * Solution
+ * 1. greedy
+ * 2. dp[i] = cost[i] + min(dp[i-1], dp[i-2])
+ * 3. return min(dp[length-1] + dp[length-2])
  */
 public class Q746MinCostClimbingStairs {
     public static int minCostClimbingStairs(int[] cost) {

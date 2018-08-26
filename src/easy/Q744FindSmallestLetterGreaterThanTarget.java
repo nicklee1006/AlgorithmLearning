@@ -9,6 +9,9 @@ package easy;
  *
  * Letters also wrap around. For example, if the target is target = 'z' and letters = ['a', 'b'], the
  * answer is 'a'.
+ *
+ * Solution
+ * 1. loop, find first greater than target
  */
 public class Q744FindSmallestLetterGreaterThanTarget {
     public static char nextGreatestLetter(char[] letters, char target) {

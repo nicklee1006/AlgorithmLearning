@@ -3,13 +3,16 @@ package easy;
 /**
  * 2018.7.6 Question 747. Largest Number At Least Twice of Others
  * https://leetcode.com/problems/largest-number-at-least-twice-of-others/description/
- * <p>
+ *
  * In a given integer array nums, there is always exactly one largest element.
- * <p>
+ *
  * Find whether the largest element in the array is at least twice as much as every other number in
  * the array.
- * <p>
+ *
  * If it is, return the index of the largest element, otherwise return -1.
+ *
+ * Solution
+ * 1. find max1 and max2
  */
 public class Q747LargestNumberAtLeastTwiceOfOthers {
     public static int dominantIndex(int[] nums) {

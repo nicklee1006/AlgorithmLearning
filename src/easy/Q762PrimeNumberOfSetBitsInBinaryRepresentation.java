@@ -11,6 +11,10 @@ import java.util.Set;
  *
  * (Recall that the number of set bits an integer has is the number of 1s present when written in
  * binary. For example, 21 written in binary is 10101 which has 3 set bits. Also, 1 is not a prime.)
+ *
+ * Solution
+ * 1. Integer.bitCount
+ * 2. predefine primes, since L and R has a range
  */
 public class Q762PrimeNumberOfSetBitsInBinaryRepresentation {
     public static int countPrimeSetBits(int L, int R) {

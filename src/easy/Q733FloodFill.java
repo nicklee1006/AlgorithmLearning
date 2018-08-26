@@ -16,6 +16,10 @@ package easy;
  * Replace the color of all of the aforementioned pixels with the newColor.
  *
  * At the end, return the modified image.
+ *
+ * Solution
+ * 1. Recursive
+ * 2. 4 directions
  */
 public class Q733FloodFill {
     public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {

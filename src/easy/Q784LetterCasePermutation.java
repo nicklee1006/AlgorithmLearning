@@ -11,6 +11,9 @@ import java.util.Queue;
  *
  * Given a string S, we can transform every letter individually to be lowercase or uppercase to
  * create another string.  Return a list of all possible strings we could create.
+ *
+ * Solution
+ * 1. Don't understand****
  */
 public class Q784LetterCasePermutation {
     public List<String> letterCasePermutation(String S) {

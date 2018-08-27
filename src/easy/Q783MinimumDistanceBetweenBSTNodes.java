@@ -8,6 +8,9 @@ import util.TreeNode;
  *
  * Given a Binary Search Tree (BST) with the root node root, return the minimum difference between
  * the values of any two different nodes in the tree.
+ *
+ * Solution
+ * 1. in order traverse
  */
 public class Q783MinimumDistanceBetweenBSTNodes {
     Integer result = Integer.MAX_VALUE;

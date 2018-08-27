@@ -13,6 +13,9 @@ package easy;
  * numbers do not rotate to any other number and become invalid.
  *
  * Now given a positive number N, how many numbers X from 1 to N are good?
+ *
+ * Solution
+ * 1. Follow instructions
  */
 public class Q788RotatedDigits {
     public static int rotatedDigits(int N) {

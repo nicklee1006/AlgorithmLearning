@@ -12,6 +12,10 @@ import java.util.Set;
  *
  * The letters in J are guaranteed distinct, and all characters in J and S are letters. Letters are
  * case sensitive, so "a" is considered a different type of stone from "A".
+ *
+ * Solution
+ * 1. use a hashset to add all chars in J
+ * 2. loop S, if set contains char in S, result++
  */
 public class Q771JewelsAndStones {
     public static int numJewelsInStones(String J, String S) {

@@ -12,6 +12,9 @@ package easy;
  *
  * Now answer two questions: how many lines have at least one character from S, and what is the
  * width used by the last such line? Return your answer as an integer list of length 2.
+ *
+ * Solution
+ * 1. if lineCount + width > 100, start new line
  */
 public class Q806NumberOfLinesToWriteString {
     public int[] numberOfLines(int[] widths, String S) {

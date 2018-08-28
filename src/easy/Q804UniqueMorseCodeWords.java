@@ -10,6 +10,9 @@ import java.util.Set;
  * International Morse Code defines a standard encoding where each letter is mapped to a series
  * of dots and dashes, as follows: "a" maps to ".-", "b" maps to "-...", "c" maps to "-.-.", and
  * so on.
+ *
+ * Solution
+ * 1. predefine codes
  */
 public class Q804UniqueMorseCodeWords {
     public static int uniqueMorseRepresentations(String[] words) {

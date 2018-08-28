@@ -21,6 +21,9 @@ import java.util.Map;
  * We are given a list cpdomains of count-paired domains. We would like a list of count-paired
  * domains, (in the same format as the input, and in any order), that explicitly counts the
  * number of visits to each subdomain.
+ *
+ * Solution
+ * 1. Don't understand
  */
 public class Q811SubdomainVisitCount {
     public static List<String> subdomainVisits(String[] cpdomains) {

@@ -4,8 +4,14 @@ package easy;
  * 2018.7.15 Question 821. Shortest Distance to a Character
  * https://leetcode.com/problems/shortest-distance-to-a-character/description/
  * <p>
- * Given a string S and a character C, return an array of integers representing the shortest distance from the
- * character C in the string.
+ * Given a string S and a character C, return an array of integers representing the shortest
+ * distance from the character C in the string.
+ *
+ * Solution
+ * 1. two pass
+ *  1.1 one from begining
+ *  1.2 one from end
+ * 2. if didn't have distance during first pass, must have value during second pass
  */
 public class Q821ShortestDistanceToACharacter {
     public int[] shortestToChar(String S, char C) {

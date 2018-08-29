@@ -15,6 +15,9 @@ import java.util.List;
  * large group.
  *
  * The final answer should be in lexicographic order.
+ *
+ * Solution
+ * 1. identify large group
  */
 public class Q830PositionsOfLargeGroups {
     public static List<List<Integer>> largeGroupPositions(String S) {

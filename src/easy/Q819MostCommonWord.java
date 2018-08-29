@@ -15,6 +15,11 @@ import java.util.Map;
  *
  * Words in the list of banned words are given in lowercase, and free of punctuation.  Words
  * in the paragraph are not case sensitive.  The answer is in lowercase.
+ *
+ * Solution
+ * 1. convert paragraph
+ * 2. use hashmap to count
+ * 3. get the largest count
  */
 public class Q819MostCommonWord {
     public static String mostCommonWord(String paragraph, String[] banned) {

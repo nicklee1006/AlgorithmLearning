@@ -9,6 +9,11 @@ import java.util.Queue;
  *
  * Given two strings S and T, return if they are equal when both are typed into empty text editors.
  * # means a backspace character.
+ *
+ * Solution
+ * 1. Use queue to add all chars
+ * 2. If meet '#', poll the last
+ * 3. compare 2 queues
  */
 public class Q844BackspaceStringCompare {
     public static boolean backspaceCompare(String S, String T) {

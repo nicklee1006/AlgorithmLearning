@@ -11,6 +11,11 @@ package easy;
  * Alex wants to sit in the seat such that the distance between him and the closest person to him is maximized.
  *
  * Return that maximum distance to closest person.
+ *
+ * Solution
+ * 1. if first seat is empty, find max
+ * 2. if last seat is empty, find max
+ * 3. find max between
  */
 public class Q849MaximizeDistanceToClosestPerson {
     public static int maxDistToClosest(int[] seats) {

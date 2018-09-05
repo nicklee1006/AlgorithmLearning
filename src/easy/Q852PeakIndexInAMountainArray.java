@@ -11,6 +11,9 @@ package easy;
  *     A[A.length - 1]
  * Given an array that is definitely a mountain, return any i such that A[0] < A[1] < ... A[i-1] < A[i] >
  *     A[i+1] > ... > A[A.length - 1].
+ *
+ * Solution
+ * 1. find the largest element and return it's index
  */
 public class Q852PeakIndexInAMountainArray {
     public static int peakIndexInMountainArray(int[] A) {

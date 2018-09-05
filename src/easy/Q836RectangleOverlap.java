@@ -11,6 +11,10 @@ package easy;
  * touch at the corner or edges do not overlap.
  *
  * Given two (axis-aligned) rectangles, return whether they overlap.
+ *
+ * Solution
+ * 1. rec1[x2] < rec2[x1], rec1[x1] > rec2[x2]
+ *    rec1[y2] < rec2[y1], rec1[y1] > rec2[y2]
  */
 public class Q836RectangleOverlap {
     public static boolean isRectangleOverlap(int[] rec1, int[] rec2) {

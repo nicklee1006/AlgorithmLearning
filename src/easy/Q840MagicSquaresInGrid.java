@@ -8,6 +8,10 @@ package easy;
  * and both diagonals all have the same sum.
  * <p>
  * Given an grid of integers, how many 3 x 3 "magic square" subgrids are there?  (Each subgrid is contiguous).
+ *
+ * Solution
+ * 1. centre of the 3*3 grid must be 5
+ * 2. sum must be 15
  */
 public class Q840MagicSquaresInGrid {
     public static int numMagicSquaresInside(int[][] grid) {

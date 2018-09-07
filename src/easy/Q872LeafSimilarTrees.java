@@ -14,6 +14,9 @@ import util.TreeNode;
  * Two binary trees are considered leaf-similar if their leaf value sequence is the same.
  *
  * Return true if and only if the two given trees with head nodes root1 and root2 are leaf-similar.
+ *
+ * Solution
+ * 1. Pre-order traverse
  */
 public class Q872LeafSimilarTrees {
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {

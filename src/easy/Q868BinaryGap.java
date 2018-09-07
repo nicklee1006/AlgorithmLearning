@@ -8,6 +8,9 @@ package easy;
  * representation of N.
  *
  * If there aren't two consecutive 1's, return 0.
+ *
+ * Solution
+ * 1. Don't understand!!!!
  */
 public class Q868BinaryGap {
     public static int binaryGap(int N) {

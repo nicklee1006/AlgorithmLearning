@@ -9,6 +9,9 @@ package easy;
  *
  * Now given a string represented by several bits. Return whether the last character must be a one-bit
  * character or not. The given string will always end with a zero.
+ *
+ * Solution
+ * 1. Don't understand!!!!
  */
 public class Q7171bitAnd2bitCharacters {
     public static boolean isOneBitCharacter(int[] bits) {

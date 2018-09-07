@@ -14,6 +14,9 @@ package easy;
  * Note that you don't have any change in hand at first.
  *
  * Return true if and only if you can provide every customer with correct change.
+ *
+ * Solution
+ * 1. Record #five, #ten
  */
 public class Q860LemonadeChange {
     public static boolean lemonadeChange(int[] bills) {

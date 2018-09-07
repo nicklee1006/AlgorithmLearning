@@ -8,6 +8,9 @@ package easy;
  *
  * The transpose of a matrix is the matrix flipped over it's main diagonal, switching the row and column
  * indices of the matrix.
+ *
+ * Solution
+ * 1. A[i][j] = B[j][i]
  */
 public class Q867TransposeMatrix {
     public int[][] transpose(int[][] A) {

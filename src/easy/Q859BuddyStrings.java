@@ -11,6 +11,11 @@ import java.util.Set;
  *
  * Given two strings A and B of lowercase letters, return true if and only if we can swap two letters in A
  * so that the result equals B.
+ *
+ * Solution
+ * 1. Check length of A and B
+ * 2. Check if A == B, check if has same char in the string
+ * 3. check if A and B only has 2 different char
  */
 public class Q859BuddyStrings {
     public static boolean buddyStrings(String A, String B) {

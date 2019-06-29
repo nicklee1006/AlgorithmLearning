@@ -1,4 +1,4 @@
-package princeton.unionfind;
+package princeton.w1_unionfind;
 
 public class QuickUnionPathCompression implements UnionFind {
     private int[] id;

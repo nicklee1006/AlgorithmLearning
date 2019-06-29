@@ -1,4 +1,4 @@
-package princeton.unionfind;
+package princeton.w1_unionfind;
 
 public interface UnionFind {
     // add connection between p and q

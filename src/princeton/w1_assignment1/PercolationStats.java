@@ -1,4 +1,4 @@
-package princeton.assignment1;
+package princeton.w1_assignment1;
 
 import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.StdStats;

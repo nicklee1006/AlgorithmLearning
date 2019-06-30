@@ -9,16 +9,8 @@ public class Q1TwoSumTest {
 
     @Test
     public void twoSum() {
-        int[] result = Q1TwoSum.twoSum(nums, target);
+        int[] result = Q1TwoSum.twoSum2(nums, target);
 
         Assert.assertArrayEquals(new int[]{0, 1}, result);
-
-    }
-
-    @Test
-    public void twoSum2() {
-        int[] result2 = Q1TwoSum.twoSum2(nums, target);
-
-        Assert.assertArrayEquals(new int[]{0, 1}, result2);
     }
 }

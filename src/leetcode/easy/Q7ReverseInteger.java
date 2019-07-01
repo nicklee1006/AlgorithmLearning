@@ -11,30 +11,54 @@ import java.util.Queue;
  */
 public class Q7ReverseInteger {
     public static int reverse(int x) {
-        Queue<Integer> queue = new LinkedList<>();
+        int result = 0;
 
         // push each digit to stack
         while (x != 0) {
-            queue.offer(x % 10);
-
+            int mod = x % 10;
             x = x / 10;
-        }
 
-        // Restore digit
-        int result = 0;
-        while (!queue.isEmpty()) {
-            if (result > Integer.MAX_VALUE / 10 || (result == Integer.MAX_VALUE / 10 && queue.peek() > 7)) {
+            if (result > Integer.MAX_VALUE / 10 || (result == Integer.MAX_VALUE / 10 && mod > 7)) {
                 return 0;
             }
-            if (result < Integer.MIN_VALUE / 10 || (result == Integer.MIN_VALUE / 10 && queue.peek() < -8)) {
+            if (result < Integer.MIN_VALUE / 10 || (result == Integer.MIN_VALUE / 10 && mod < -8)) {
                 return 0;
             }
 
-            result = result * 10 + queue.poll();
+            result = result * 10 + mod;
         }
 
         return result;
     }
+
+    /**
+     * Using queue
+     */
+//    public static int reverse(int x) {
+//        Queue<Integer> queue = new LinkedList<>();
+//
+//        // push each digit to stack
+//        while (x != 0) {
+//            queue.offer(x % 10);
+//
+//            x = x / 10;
+//        }
+//
+//        // Restore digit
+//        int result = 0;
+//        while (!queue.isEmpty()) {
+//            if (result > Integer.MAX_VALUE / 10 || (result == Integer.MAX_VALUE / 10 && queue.peek() > 7)) {
+//                return 0;
+//            }
+//            if (result < Integer.MIN_VALUE / 10 || (result == Integer.MIN_VALUE / 10 && queue.peek() < -8)) {
+//                return 0;
+//            }
+//
+//            result = result * 10 + queue.poll();
+//        }
+//
+//        return result;
+//    }
 
     /**
      * 1. check if it is < 0

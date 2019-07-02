@@ -13,7 +13,6 @@ public class Q7ReverseInteger {
     public static int reverse(int x) {
         int result = 0;
 
-        // push each digit to stack
         while (x != 0) {
             int mod = x % 10;
             x = x / 10;

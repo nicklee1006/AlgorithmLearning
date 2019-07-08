@@ -22,11 +22,11 @@ import java.util.Stack;
  */
 public class Q20ValidParentheses {
     public static boolean isValid(String s) {
-        Stack<Character> beginning = new Stack<>();
-
-        if (s.length() < 2) {
-            return false;
+        if (s.isEmpty() || s.length() < 2) {
+            return true;
         }
+
+        Stack<Character> beginning = new Stack<>();
 
         for (int i = 0; i < s.length(); i++) {
             char current = s.charAt(i);

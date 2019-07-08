@@ -7,7 +7,9 @@ public class Q20ValidParenthesesTest {
 
     @Test
     public void isValid() {
-        Assert.assertEquals(true, Q20ValidParentheses.isValid("()[]{}"));
-        Assert.assertEquals(false, Q20ValidParentheses.isValid("){"));
+        Assert.assertTrue(Q20ValidParentheses.isValid(""));
+        Assert.assertTrue(Q20ValidParentheses.isValid("()[]{}"));
+        Assert.assertFalse(Q20ValidParentheses.isValid("){"));
+        Assert.assertFalse(Q20ValidParentheses.isValid("()[]{[]})"));
     }
 }

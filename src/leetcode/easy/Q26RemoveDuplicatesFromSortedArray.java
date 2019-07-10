@@ -9,13 +9,13 @@ package leetcode.easy;
  *
  * Do not allocate extra space for another array, you must do this by modifying the input array in-place with
  * O(1) extra memory.
- *
- * Solution:
- * 1. loop array
- *  1.1 maintain an index of the length of result
- *  1.2 if current value != next value, give current value to result[index-1]
  */
 public class Q26RemoveDuplicatesFromSortedArray {
+    /**
+     * 1. loop array
+     *  1.1 maintain an index of the length of result
+     *  1.2 if current value != next value, give current value to result[index-1]
+     */
     public static int removeDuplicates(int[] nums) {
         if (nums.length == 0) {
             return 0;
@@ -24,9 +24,9 @@ public class Q26RemoveDuplicatesFromSortedArray {
         int result = 1;
         int current = nums[0];
 
-        for (int i = 0; i < nums.length-1; i++) {
+        for (int i = 0; i < nums.length - 1; i++) {
             if (current != nums[i + 1]) {
-                nums[result-1] = current;
+                nums[result - 1] = current;
                 result++;
                 current = nums[i + 1];
             }

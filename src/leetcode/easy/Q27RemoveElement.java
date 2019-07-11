@@ -10,14 +10,15 @@ package leetcode.easy;
  * with O(1) extra memory.
  *
  * The order of elements can be changed. It doesn't matter what you leave beyond the new length.
- *
- * Solution:
- * 1. Maintain an index of the length of the result
- * 2. Use that index to indicate the place to put values
  */
 public class Q27RemoveElement {
+    /**
+     *  1. Maintain an index of the length of the result
+     *  2. Use that index to indicate the place to put values
+     */
     public static int removeElement(int[] nums, int val) {
         int result = 0;
+
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] != val) {
                 nums[result] = nums[i];

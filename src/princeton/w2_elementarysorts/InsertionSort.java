@@ -1,5 +1,7 @@
 package princeton.w2_elementarysorts;
 
+import java.util.Arrays;
+
 public class InsertionSort extends ElementarySort {
     @Override
     public void sort(Comparable[] a) {
@@ -12,5 +14,9 @@ public class InsertionSort extends ElementarySort {
                 }
             }
         }
+    }
+
+    public void sort(Comparable[] a, int low, int high) {
+        sort(Arrays.copyOfRange(a, low, high + 1));
     }
 }

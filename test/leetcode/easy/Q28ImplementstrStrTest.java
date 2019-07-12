@@ -13,5 +13,6 @@ public class Q28ImplementstrStrTest {
         Assert.assertEquals(-1, Q28ImplementstrStr.strStr("mississippi", "a"));
         Assert.assertEquals(0, Q28ImplementstrStr.strStr("a", "a"));
         Assert.assertEquals(0, Q28ImplementstrStr.strStr("aaa", "a"));
+        Assert.assertEquals(9, Q28ImplementstrStr.strStr("mississippi", "pi"));
     }
 }

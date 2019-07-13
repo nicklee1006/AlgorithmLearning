@@ -8,11 +8,12 @@ package leetcode.easy;
  * index where it would be if it were inserted in order.
  *
  * You may assume no duplicates in the array.
- *
- * Solution
- * 1. find the index that first num[i] >= target
  */
 public class Q35SearchInsertPosition {
+    /**
+     * Solution
+     *  1. find the index that first num[i] >= target
+     */
     public static int searchInsert(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] >= target) {

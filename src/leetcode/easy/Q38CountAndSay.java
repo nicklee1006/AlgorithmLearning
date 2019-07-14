@@ -19,31 +19,82 @@ package leetcode.easy;
  * Note: Each term of the sequence of integers will be represented as a string.
  */
 public class Q38CountAndSay {
+    /**
+     * Recursive.
+     */
     public static String countAndSay(int n) {
-        String previous = "1";
-        String current = "1";
-
-        for (int i = 1; i < n; i++) {
-            int count;
-            char character;
-            current = "";
-
-            int length = previous.length();
-            for (int j = 0; j < previous.length(); j++) {
-                character = previous.charAt(j);
-                count = 1;
-
-                while (j + 1 < length && character == previous.charAt(j + 1)) {
-                    count++;
-                    j++;
-                }
-
-                current = current + count + character;
-            }
-
-            previous = current;
+        if (n == 1) {
+            return "1";
         }
 
-        return current;
+        String previous = countAndSay(n - 1);
+        StringBuilder current = new StringBuilder();
+
+        int count;
+        for (int i = 0; i < previous.length(); i++) {
+            count = 1;
+
+            while ((i + 1) < previous.length() && previous.charAt(i) == previous.charAt(i + 1)) {
+                i++;
+                count++;
+            }
+
+            current.append(count).append(previous.charAt(i));
+        }
+
+        return current.toString();
     }
+
+//    public static String countAndSay(int n) {
+//        String previous = "1";
+//        StringBuilder current = new StringBuilder("1");
+//
+//        int charCount;
+//        for (int i = 1; i < n; i++) {
+//            current.setLength(0);
+//
+//            for (int j = 0; j < previous.length(); j++) {
+//                charCount = 1;
+//
+//                while ((j + 1) < previous.length() && previous.charAt(j) == previous.charAt(j + 1)) {
+//                    j++;
+//                    charCount++;
+//                }
+//
+//                current.append(charCount).append(previous.charAt(j));
+//            }
+//
+//            previous = current.toString();
+//        }
+//
+//        return current.toString();
+//    }
+
+//    public static String countAndSay(int n) {
+//        String previous = "1";
+//        String current = "1";
+//
+//        for (int i = 1; i < n; i++) {
+//            int count;
+//            char character;
+//            current = "";
+//
+//            int length = previous.length();
+//            for (int j = 0; j < previous.length(); j++) {
+//                character = previous.charAt(j);
+//                count = 1;
+//
+//                while (j + 1 < length && character == previous.charAt(j + 1)) {
+//                    count++;
+//                    j++;
+//                }
+//
+//                current = current + count + character;
+//            }
+//
+//            previous = current;
+//        }
+//
+//        return current;
+//    }
 }

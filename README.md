@@ -11,3 +11,6 @@
 [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)  
 [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)  
 [27. Remove Element](https://leetcode.com/problems/remove-element/)  
+[28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)  
+[35. Search Insert Position](https://leetcode.com/problems/search-insert-position)  
+[38. Count and Say](https://leetcode.com/problems/count-and-say/)

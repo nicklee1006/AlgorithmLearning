@@ -9,5 +9,6 @@ public class Q66PlusOneTest {
     public void plusOne() {
         Assert.assertArrayEquals(new int[]{1,2,3,4,6}, Q66PlusOne.plusOne(new int[]{1,2,3,4,5}));
         Assert.assertArrayEquals(new int[]{1,0,0,0,0}, Q66PlusOne.plusOne(new int[]{9,9,9,9}));
+        Assert.assertArrayEquals(new int[]{1}, Q66PlusOne.plusOne(new int[]{0}));
     }
 }

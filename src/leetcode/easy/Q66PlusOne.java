@@ -8,12 +8,15 @@ package leetcode.easy;
  * You may assume the integer do not contain any leading zero, except the number 0 itself.
  * The digits are stored such that the most significant digit is at the head of the list.
  *
- * Solution
- * 1. If any digit is not zero, add 1 to it and then return
- * 2. If 9, make it zero, and proceed next digit.
- * 3. Handle 999999, special case
+
  */
 public class Q66PlusOne {
+    /**
+     *  Solution
+     *      1. If any digit is not zero, add 1 to it and then return
+     *      2. If 9, make it zero, and proceed next digit.
+     *      3. Handle 999999, special case
+     */
     public static int[] plusOne(int[] digits) {
         for (int i = digits.length -1; i >= 0; i--) {
             if (digits[i] != 9) {

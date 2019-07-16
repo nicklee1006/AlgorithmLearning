@@ -12,6 +12,10 @@ package leetcode.easy;
  * Note: A word is defined as a character sequence consists of non-space characters only.
  */
 public class Q58LengthOfLastWord {
+    /**
+     * Just use String.split
+     * O(n)
+     */
     public static int lengthOfLastWord(String s) {
         String[] splits = s.split("\\s+");
 

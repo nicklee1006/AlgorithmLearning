@@ -15,9 +15,13 @@ import java.util.Map;
  * 1. Dynamic Programming, c(n) = c(n-1) + c(n-2)
  */
 public class Q70ClimbingStairs {
-    static Map<Integer, Integer> tempResult = new HashMap<>();
-
     public static int climbStairs(int n) {
+        int[] dp = new int[n + 1];
+
+        return climb(n, dp);
+    }
+
+    private static int climb(int n, int[] dp) {
         if (n == 1) {
             return 1;
         }
@@ -26,14 +30,34 @@ public class Q70ClimbingStairs {
             return 2;
         }
 
-        int result;
-        if (tempResult.containsKey(n)) {
-            return tempResult.get(n);
+        if (dp[n] != 0) {
+            return dp[n];
         } else {
-            result = climbStairs(n - 1) + climbStairs(n - 2);
-            tempResult.put(n, result);
+            dp[n] = climb(n - 1, dp) + climb(n - 2, dp);
+            return dp[n];
         }
-
-        return result;
     }
+
+//    private static Map<Integer, Integer> tempResult = new HashMap<>();
+//
+//    public static int climbStairs(int n) {
+//        // base case
+//        if (n == 1) {
+//            return 1;
+//        }
+//
+//        if (n == 2) {
+//            return 2;
+//        }
+//
+//        int result;
+//        if (tempResult.containsKey(n)) {
+//            return tempResult.get(n);
+//        } else {
+//            result = climbStairs(n - 1) + climbStairs(n - 2);
+//            tempResult.put(n, result);
+//        }
+//
+//        return result;
+//    }
 }

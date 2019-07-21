@@ -4,6 +4,7 @@
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/)  
 [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)  
+[5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)  
 [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)  
 [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)  
 [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)  

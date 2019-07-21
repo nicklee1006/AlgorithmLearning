@@ -1,9 +1,8 @@
-package leetcode.easy;
+package leetcode.medium;
 
+import leetcode.medium.Q3LongestSubstringWithoutRepeatingCharacters;
 import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class Q3LongestSubstringWithoutRepeatingCharactersTest {
 

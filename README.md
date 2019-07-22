@@ -22,4 +22,5 @@
 [66. Plus One](https://leetcode.com/problems/plus-one/)  
 [67. Add Binary](https://leetcode.com/problems/add-binary/)  
 [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)  
-[70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+[70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)  
+[83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)  

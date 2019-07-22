@@ -20,13 +20,14 @@ public class Q83RemoveDuplicatesFromSortedList {
             return head;
         }
 
-        ListNode start = head;
+        ListNode node = head;
 
-        while (start.next != null) {
-            if (start.next.val == start.val) {
-                start.next = start.next.next;
+        while (node.next != null) {
+            // find duplicate
+            if (node.val == node.next.val) {
+                node.next = node.next.next;
             } else {
-                start = start.next;
+                node = node.next;
             }
         }
 

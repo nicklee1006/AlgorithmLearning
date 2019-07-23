@@ -7,6 +7,7 @@
 [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)  
 [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)  
 [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)  
+[8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)  
 [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)  
 [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)  
 [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)  

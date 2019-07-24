@@ -1,4 +1,4 @@
-package leetcode.easy;
+package leetcode.medium;
 
 public class Q8StringToInteger {
     public static int myAtoi(String str) {

@@ -15,26 +15,56 @@ package leetcode.easy;
  */
 public class Q88MergeSortedArray {
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
-        int index1 = m - 1;
-        int index2 = n - 1;
-        int indexMerge = m + n -1;
-
-        while (index1 >= 0 && index2 >= 0) {
-            if (nums1[index1] > nums2[index2]) {
-                nums1[indexMerge] = nums1[index1];
-                indexMerge--;
-                index1--;
-            } else {
-                nums1[indexMerge] = nums2[index2];
-                indexMerge--;
-                index2--;
-            }
+        // move all m elements in num1 to the end of nums1
+        for (int i = 0; i < m; i++) {
+            nums1[m + n - 1 - i] = nums1[m - 1 - i];
         }
 
-        while (index2 >= 0) {
-            nums1[indexMerge] = nums2[index2];
-            indexMerge--;
-            index2--;
+        int index = 0;
+        int indexNum1 = n;
+        int indexNum2 = 0;
+
+        while (indexNum2 < n) {
+            // if empty num1, insert all num2
+            if (indexNum1 == m + n) {
+                while (indexNum2 < n) {
+                    nums1[index++] = nums2[indexNum2++];
+                }
+
+                return;
+            }
+
+            if (nums1[indexNum1] <= nums2[indexNum2]) {
+                nums1[index] = nums1[indexNum1++];
+            } else {
+                nums1[index] = nums2[indexNum2++];
+
+            }
+            index++;
         }
     }
+
+//    public static void merge(int[] nums1, int m, int[] nums2, int n) {
+//        int index1 = m - 1;
+//        int index2 = n - 1;
+//        int indexMerge = m + n - 1;
+//
+//        while (index1 >= 0 && index2 >= 0) {
+//            if (nums1[index1] > nums2[index2]) {
+//                nums1[indexMerge] = nums1[index1];
+//                indexMerge--;
+//                index1--;
+//            } else {
+//                nums1[indexMerge] = nums2[index2];
+//                indexMerge--;
+//                index2--;
+//            }
+//        }
+//
+//        while (index2 >= 0) {
+//            nums1[indexMerge] = nums2[index2];
+//            indexMerge--;
+//            index2--;
+//        }
+//    }
 }

@@ -2,7 +2,7 @@ package leetcode.medium;
 
 import java.util.Arrays;
 
-public class Q163SumClosest {
+public class Q16ThreeSumClosest {
     public static int threeSumClosest(int[] nums, int target) {
         int distance = Integer.MAX_VALUE;
         int result = 0;

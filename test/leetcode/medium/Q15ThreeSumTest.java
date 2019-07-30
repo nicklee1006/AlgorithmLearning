@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Q153SumTest {
+public class Q15ThreeSumTest {
 
     @Test
     public void threeSum() {
@@ -15,7 +15,7 @@ public class Q153SumTest {
         expected.add(Arrays.asList(-1, 0, 1));
         expected.add(Arrays.asList(-1, -1, 2));
 
-        List<List<Integer>> actual = Q153Sum.threeSum(new int[]{-1, 0, 1, 2, -1, -4});
+        List<List<Integer>> actual = Q15ThreeSum.threeSum(new int[]{-1, 0, 1, 2, -1, -4});
 
         Assert.assertEquals(expected, actual);
     }

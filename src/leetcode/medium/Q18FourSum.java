@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Q184Sum {
+public class Q18FourSum {
     public static List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> results = new ArrayList<>();
 

@@ -1,31 +1,20 @@
 package leetcode.easy;
 
+import leetcode.util.ListNode;
+import org.junit.Assert;
 import org.junit.Test;
+import util.LinkedListTestUtil;
 
 public class Q21MergeTwoSortedListsTest {
 
     @Test
     public void mergeTwoLists() {
-        leetcode.util.ListNode node1 = new leetcode.util.ListNode(1);
-        leetcode.util.ListNode node2 = new leetcode.util.ListNode(2);
-        leetcode.util.ListNode node3 = new leetcode.util.ListNode(4);
-        leetcode.util.ListNode node4 = new leetcode.util.ListNode(1);
-        leetcode.util.ListNode node5 = new leetcode.util.ListNode(3);
-        leetcode.util.ListNode node6 = new leetcode.util.ListNode(4);
+        ListNode testCase1 = LinkedListTestUtil.createLinkedListFromArray(new int[]{1, 2, 4});
+        ListNode testCase2 = LinkedListTestUtil.createLinkedListFromArray(new int[]{1, 3, 4});
 
-        node1.next = node2;
-        node2.next = node3;
-        node4.next = node5;
-        node5.next = node6;
+        ListNode actual = Q21MergeTwoSortedLists.mergeTwoLists(testCase1, testCase2);
+        ListNode expected = LinkedListTestUtil.createLinkedListFromArray(new int[]{1, 1, 2, 3, 4, 4});
 
-        leetcode.util.ListNode result = Q21MergeTwoSortedLists.mergeTwoLists(node1, node4);
-
-        while (result.next != null) {
-            System.out.println(result.val);
-
-            result = result.next;
-        }
-
-        System.out.println(result.val);
+        Assert.assertTrue(LinkedListTestUtil.isTwoLinkedListEqual(actual, expected));
     }
 }

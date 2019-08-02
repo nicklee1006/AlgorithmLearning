@@ -20,6 +20,7 @@
 [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)  
 [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)  
 [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)  
+[22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)  
 [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)  
 [27. Remove Element](https://leetcode.com/problems/remove-element/)  
 [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)  

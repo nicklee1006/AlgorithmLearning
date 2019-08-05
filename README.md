@@ -26,6 +26,7 @@
 [27. Remove Element](https://leetcode.com/problems/remove-element/)  
 [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)  
 [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)  
+[31. Next Permutation](https://leetcode.com/problems/next-permutation/)  
 [35. Search Insert Position](https://leetcode.com/problems/search-insert-position)  
 [38. Count and Say](https://leetcode.com/problems/count-and-say/)  
 [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)  

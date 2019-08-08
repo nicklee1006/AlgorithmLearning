@@ -30,6 +30,7 @@
 [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)  
 [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)  
 [35. Search Insert Position](https://leetcode.com/problems/search-insert-position)  
+[36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)  
 [38. Count and Say](https://leetcode.com/problems/count-and-say/)  
 [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)  
 [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/)  

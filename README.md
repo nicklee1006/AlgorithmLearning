@@ -36,6 +36,7 @@
 [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)  
 [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)  
 [46. Permutations](https://leetcode.com/problems/permutations/)  
+[47. Permutations II](https://leetcode.com/problems/permutations-ii/)  
 [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)  
 [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/)  
 [66. Plus One](https://leetcode.com/problems/plus-one/)  

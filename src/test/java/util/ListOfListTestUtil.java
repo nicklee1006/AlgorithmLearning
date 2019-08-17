@@ -2,9 +2,9 @@ package util;
 
 import java.util.List;
 
-public class ListOfListTestUtil {
-    public static boolean isTwoListOfListEqual(List<List<Integer>> actual, List<List<Integer>> expected) {
-        for (List<Integer> actualList : actual) {
+public class ListOfListTestUtil<T> {
+    public boolean isTwoListOfListEqual(List<List<T>> actual, List<List<T>> expected) {
+        for (List<T> actualList : actual) {
             if (!hasList(actualList, expected)) {
                 return false;
             }
@@ -13,8 +13,8 @@ public class ListOfListTestUtil {
         return true;
     }
 
-    private static boolean hasList(List<Integer> list, List<List<Integer>> expected) {
-        for (List<Integer> tempList : expected) {
+    private boolean hasList(List<T> list, List<List<T>> expected) {
+        for (List<T> tempList : expected) {
             if (list.size() == tempList.size() && tempList.containsAll(list)) {
                 return true;
             }

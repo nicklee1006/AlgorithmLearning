@@ -22,6 +22,7 @@ public class Q46PermutationsTest {
         expected1.add(Arrays.asList(3, 1, 2));
         expected1.add(Arrays.asList(3, 2, 1));
 
-        Assert.assertTrue(ListOfListTestUtil.isTwoListOfListEqual(Q46Permutations.permute(new int[]{1, 2, 3}), expected1));
+        ListOfListTestUtil<Integer> util = new ListOfListTestUtil<>();
+        Assert.assertTrue(util.isTwoListOfListEqual(Q46Permutations.permute(new int[]{1, 2, 3}), expected1));
     }
 }

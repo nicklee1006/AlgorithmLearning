@@ -19,6 +19,7 @@ public class Q47PermutationsIITest {
         expected1.add(Arrays.asList(1, 2, 1));
         expected1.add(Arrays.asList(2, 1, 1));
 
-        Assert.assertTrue(ListOfListTestUtil.isTwoListOfListEqual(Q47PermutationsII.permuteUnique(new int[]{1, 1, 2}), expected1));
+        ListOfListTestUtil<Integer> util = new ListOfListTestUtil<>();
+        Assert.assertTrue(util.isTwoListOfListEqual(Q47PermutationsII.permuteUnique(new int[]{1, 1, 2}), expected1));
     }
 }

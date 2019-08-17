@@ -27,9 +27,10 @@ public class Q40CombinationSumIITest {
         List<List<Integer>> actual1 = Q40CombinationSumII.combinationSum2(new int[]{10,1,2,7,6,1,5}, 8);
         List<List<Integer>> actual2 = Q40CombinationSumII.combinationSum2(new int[]{2,5,2,1,2}, 5);
 
+        ListOfListTestUtil<Integer> util = new ListOfListTestUtil<>();
         assertEquals(expected1.size(), actual1.size());
         assertEquals(expected2.size(), actual2.size());
-        assertTrue(ListOfListTestUtil.isTwoListOfListEqual(actual1, expected1));
-        assertTrue(ListOfListTestUtil.isTwoListOfListEqual(actual2, expected2));
+        assertTrue(util.isTwoListOfListEqual(actual1, expected1));
+        assertTrue(util.isTwoListOfListEqual(actual2, expected2));
     }
 }

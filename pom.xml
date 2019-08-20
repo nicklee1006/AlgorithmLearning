@@ -6,7 +6,13 @@
 
     <groupId>com.nicklee</groupId>
     <artifactId>AlgorithmLearning</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>leetcode</module>
+        <module>PrincetonAlgorithmCourse</module>
+        <module>Other</module>
+    </modules>
 
     <dependencies>
         <dependency>

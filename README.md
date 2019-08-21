@@ -43,6 +43,7 @@
 [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)  
 [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)  
 [55. Jump Game](https://leetcode.com/problems/jump-game/)  
+[56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)  
 [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/)  
 [66. Plus One](https://leetcode.com/problems/plus-one/)  
 [67. Add Binary](https://leetcode.com/problems/add-binary/)  

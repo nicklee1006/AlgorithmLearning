@@ -56,6 +56,7 @@
 [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)  
 [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)  
 [71. Simplify Path](https://leetcode.com/problems/simplify-path/)  
+[73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)  
 [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)  
 [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)  
 [100. Same Tree](https://leetcode.com/problems/same-tree/)  

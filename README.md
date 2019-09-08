@@ -66,5 +66,6 @@
 [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)  
 [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)  
 [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)  
+[86. Partition List](https://leetcode.com/problems/partition-list/)  
 [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)  
 [100. Same Tree](https://leetcode.com/problems/same-tree/)  

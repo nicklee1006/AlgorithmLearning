@@ -68,4 +68,5 @@
 [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)  
 [86. Partition List](https://leetcode.com/problems/partition-list/)  
 [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)  
+[89. Gray Code](https://leetcode.com/problems/gray-code/)  
 [100. Same Tree](https://leetcode.com/problems/same-tree/)  

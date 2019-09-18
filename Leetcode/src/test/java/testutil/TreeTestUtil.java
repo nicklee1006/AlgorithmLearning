@@ -1,6 +1,5 @@
 package testutil;
 
-import com.sun.org.apache.bcel.internal.generic.IFLE;
 import util.TreeNode;
 
 import java.util.LinkedList;
@@ -41,5 +40,33 @@ public class TreeTestUtil {
         }
 
         return root;
+    }
+
+    public static boolean isTwoTreesSame(TreeNode tree1, TreeNode tree2) {
+        return inOrderTraversal(tree1, tree2);
+    }
+
+    private static boolean inOrderTraversal(TreeNode tree1, TreeNode tree2) {
+        if (tree1 == null && tree2 == null) {
+            return true;
+        }
+
+        if (tree1 == null || tree2 == null) {
+            return false;
+        }
+
+        if (!inOrderTraversal(tree1.left, tree2.left)) {
+            return false;
+        }
+
+        if (tree1.val != tree2.val) {
+            return false;
+        }
+
+        if (!inOrderTraversal(tree1.right, tree2.right)) {
+            return false;
+        }
+
+        return true;
     }
 }

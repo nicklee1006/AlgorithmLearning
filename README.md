@@ -75,4 +75,5 @@
 [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)  
 [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)  
 [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)  
+[96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)    
 [100. Same Tree](https://leetcode.com/problems/same-tree/)  

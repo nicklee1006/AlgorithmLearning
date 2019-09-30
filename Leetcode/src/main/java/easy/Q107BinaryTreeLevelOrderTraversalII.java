@@ -1,11 +1,11 @@
 package easy;
 
-import util.TreeNode;
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+
+import util.TreeNode;
 
 /**
  * 2018.4.8  Binary Tree Level Order Traversal II
@@ -19,7 +19,7 @@ import java.util.Queue;
  * 2. use queue for bfs
  */
 public class Q107BinaryTreeLevelOrderTraversalII {
-    public List<List<Integer>> levelOrderBottom(TreeNode root) {
+    public static List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
 
         if (root == null) {

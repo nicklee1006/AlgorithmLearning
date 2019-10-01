@@ -14,15 +14,17 @@ import util.TreeNode;
  * 1. Keep finding the middle point of array
  */
 public class Q108ConvertSortedArrayToBinarySearchTree {
-    public TreeNode sortedArrayToBST(int[] nums) {
+    public static TreeNode sortedArrayToBST(int[] nums) {
         if (nums.length == 0) {
             return null;
         }
 
-        return findMiddle(nums, 0, nums.length - 1);
+        TreeNode node = findMiddle(nums, 0, nums.length - 1);
+
+        return node;
     }
 
-    private TreeNode findMiddle(int[] num, int lowIndex, int highIndex) {
+    private static TreeNode findMiddle(int[] num, int lowIndex, int highIndex) {
         if (lowIndex > highIndex) {
             return null;
         }

@@ -15,7 +15,7 @@ import util.TreeNode;
  * 2. recursive check depth of left and right
  */
 public class Q110BalancedBinaryTree {
-    public boolean isBalanced(TreeNode root) {
+    public static boolean isBalanced(TreeNode root) {
         if (root == null) {
             return true;
         }
@@ -27,7 +27,7 @@ public class Q110BalancedBinaryTree {
         return isBalanced(root.left) && isBalanced(root.right);
     }
 
-    private int depth(TreeNode root) {
+    private static int depth(TreeNode root) {
         if (root == null) {
             return 0;
         }

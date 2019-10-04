@@ -17,7 +17,7 @@ import util.TreeNode;
  * 4. Else, return min(left, right)
  */
 public class Q111MinimumDepthOfBinaryTree {
-    public int minDepth(TreeNode root) {
+    public static int minDepth(TreeNode root) {
         if (root == null) {
             return 0;
         }

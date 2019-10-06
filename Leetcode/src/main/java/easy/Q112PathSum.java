@@ -14,7 +14,7 @@ import util.TreeNode;
  * 2. check left and right
  */
 public class Q112PathSum {
-    public boolean hasPathSum(TreeNode root, int sum) {
+    public static boolean hasPathSum(TreeNode root, int sum) {
         if (root == null) {
             return false;
         }

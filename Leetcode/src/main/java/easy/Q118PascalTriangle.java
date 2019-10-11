@@ -21,24 +21,20 @@ public class Q118PascalTriangle {
             return results;
         }
 
+        // first row
         List<Integer> firstRow = new ArrayList<>();
         firstRow.add(1);
-
         results.add(firstRow);
 
         if (numRows == 1) {
             return results;
         }
 
-        List<Integer> second = new ArrayList<>();
-        second.add(1);
-        second.add(1);
-
-        results.add(second);
-
-        if (numRows == 2) {
-            return results;
-        }
+        // second row
+        List<Integer> secondRow = new ArrayList<>();
+        secondRow.add(1);
+        secondRow.add(1);
+        results.add(secondRow);
 
         for (int i = 2; i < numRows; i++) {
             List<Integer> newRow = new ArrayList<>();

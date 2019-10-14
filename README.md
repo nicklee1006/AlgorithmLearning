@@ -96,3 +96,4 @@
 [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)  
 [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)  
 [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)  
+[120. Triangle](https://leetcode.com/problems/triangle/)  

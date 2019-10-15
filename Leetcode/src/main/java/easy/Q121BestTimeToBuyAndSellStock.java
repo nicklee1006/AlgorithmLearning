@@ -14,21 +14,39 @@ package easy;
  */
 public class Q121BestTimeToBuyAndSellStock {
     public static int maxProfit(int[] prices) {
-        if (prices.length == 0) {
-            return 0;
-        }
-
         int result = 0;
-        int minBuyPrice = prices[0];
 
-        for (int price : prices) {
-            if (price > minBuyPrice) {
-                result = Math.max(result, price - minBuyPrice);
+        int buyIndex = 0;
+        int sellIndex = 0;
+
+        for (; sellIndex < prices.length; sellIndex++) {
+            // if we have a smaller value of buy, point buy to this one, as we want buy at lower price
+            if (prices[sellIndex] < prices[buyIndex]) {
+                buyIndex = sellIndex;
             } else {
-                minBuyPrice = price;
+                result = Math.max(result, prices[sellIndex] - prices[buyIndex]);
             }
         }
 
         return result;
     }
+
+//    public static int maxProfit(int[] prices) {
+//        if (prices.length == 0) {
+//            return 0;
+//        }
+//
+//        int result = 0;
+//        int minBuyPrice = prices[0];
+//
+//        for (int price : prices) {
+//            if (price > minBuyPrice) {
+//                result = Math.max(result, price - minBuyPrice);
+//            } else {
+//                minBuyPrice = price;
+//            }
+//        }
+//
+//        return result;
+//    }
 }

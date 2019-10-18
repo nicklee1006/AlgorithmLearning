@@ -100,3 +100,4 @@
 [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)  
 [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)  
 [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)  
+[136. Single Number](https://leetcode.com/problems/single-number/)  

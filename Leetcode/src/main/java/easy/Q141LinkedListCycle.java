@@ -19,7 +19,7 @@ import util.ListNode;
  * 4. If no cycle, then the fast one will reach end of the list
  */
 public class Q141LinkedListCycle {
-    public boolean hasCycle(ListNode head) {
+    public static boolean hasCycle(ListNode head) {
         if (head == null) {
             return false;
         }
@@ -28,19 +28,14 @@ public class Q141LinkedListCycle {
         ListNode fast = head;
 
         while (true) {
-            if (fast == null) {
+            if (fast == null || fast.next == null) {
                 return false;
             }
 
-            fast = fast.next;
-
-            if (fast == null) {
-                return false;
-            }
-
-            fast = fast.next;
             slow = slow.next;
+            fast = fast.next.next;
 
+            // if fast and slow pointer meet
             if (fast == slow) {
                 return true;
             }

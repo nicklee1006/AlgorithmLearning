@@ -65,4 +65,24 @@ public class LinkedListTestUtil {
 
         return list1 == null && list2 == null;
     }
+
+    public static boolean isFirstNNodesOfTwoLinkedListEqual(ListNode list1, ListNode list2, int n) {
+        int i = 0;
+        while (i < n) {
+            if (list1 == null || list2 == null) {
+                return false;
+            }
+
+            if (list1.val != list2.val) {
+                return false;
+            }
+
+            list1 = list1.next;
+            list2 = list2.next;
+
+            i++;
+        }
+
+        return true;
+    }
 }

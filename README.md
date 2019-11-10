@@ -113,3 +113,4 @@
 [143. Reorder List](https://leetcode.com/problems/reorder-list/)  
 [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)  
 [146. LRU Cache](https://leetcode.com/problems/lru-cache/)  
+[152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) - Array, Dynamic Programming 

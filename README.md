@@ -114,7 +114,8 @@
 [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)  
 [146. LRU Cache](https://leetcode.com/problems/lru-cache/)  
 [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/submissions/) - Linked List, Sort  
-[148. Sort List](https://leetcode.com/problems/sort-list/) - Linked List, Sort
+[148. Sort List](https://leetcode.com/problems/sort-list/) - Linked List, Sort  
+[150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) - Stack  
 [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) - Array, Dynamic Programming  
 [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) - Array, Binary Search  
 [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) - Array, Binary Search 

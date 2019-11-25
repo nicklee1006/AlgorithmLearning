@@ -27,8 +27,8 @@
 [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)  
 [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)  
 [31. Next Permutation](https://leetcode.com/problems/next-permutation/) -Array   
-[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)  
-[34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)  
+[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) -Array, Binary Search  
+[34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) -Array, Binary Search   
 [35. Search Insert Position](https://leetcode.com/problems/search-insert-position)  
 [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)  
 [38. Count and Say](https://leetcode.com/problems/count-and-say/)  
@@ -116,6 +116,7 @@
 [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/submissions/) - Linked List, Sort  
 [148. Sort List](https://leetcode.com/problems/sort-list/) - Linked List, Sort  
 [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) - Stack  
+[151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) - String  
 [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) - Array, Dynamic Programming  
 [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) - Array, Binary Search  
 [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) - Array, Binary Search 

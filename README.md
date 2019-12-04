@@ -33,14 +33,14 @@
 [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)  
 [38. Count and Say](https://leetcode.com/problems/count-and-say/)  
 [39. Combination Sum](https://leetcode.com/problems/combination-sum/) - Array, Backtracking   
-[40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)  
+[40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) - Array, Backtracking  
 [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)  
 [46. Permutations](https://leetcode.com/problems/permutations/)  
 [47. Permutations II](https://leetcode.com/problems/permutations-ii/)  
-[48. Rotate Image](https://leetcode.com/problems/rotate-image/)  
+[48. Rotate Image](https://leetcode.com/problems/rotate-image/) - Array  
 [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)  
 [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)  
-[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)  
+[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) - Array, Divide and Conquer, Dynamic Programming  
 [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)  
 [55. Jump Game](https://leetcode.com/problems/jump-game/)  
 [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)  
@@ -121,4 +121,5 @@
 [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) - Array, Binary Search  
 [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) - Array, Binary Search   
 [165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) - String  
-[166. Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) - Hash Table, Math
+[166. Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) - Hash Table, Math  
+[173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) - Stack, Tree, Design

@@ -41,8 +41,8 @@
 [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)  
 [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)  
 [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) - Array, Divide and Conquer, Dynamic Programming  
-[54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)  
-[55. Jump Game](https://leetcode.com/problems/jump-game/)  
+[54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) - Array  
+[55. Jump Game](https://leetcode.com/problems/jump-game/) - Array, Greedy  
 [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)  
 [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/)  
 [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)  
@@ -124,3 +124,4 @@
 [166. Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) - Hash Table, Math  
 [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) - Stack, Tree, Design  
 [179. Largest Number](https://leetcode.com/problems/largest-number/) - Sort  
+[187. Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) - Hash Table, Bit Manipulation  

@@ -3,6 +3,7 @@
 ## Leetcode Questions
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/) - Array, Hash Table  
+[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) - Linked List, Math  
 [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)  
 [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)  
 [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)  
@@ -48,8 +49,8 @@
 [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) - Array  
 [60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)  
 [61. Rotate List](https://leetcode.com/problems/rotate-list/)  
-[62. Unique Paths](https://leetcode.com/problems/unique-paths/)  
-[63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)  
+[62. Unique Paths](https://leetcode.com/problems/unique-paths/) - Array, Dynamic Programming  
+[63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) - Array, Dynamic Programming  
 [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)  
 [66. Plus One](https://leetcode.com/problems/plus-one/)  
 [67. Add Binary](https://leetcode.com/problems/add-binary/)  
@@ -126,3 +127,4 @@
 [179. Largest Number](https://leetcode.com/problems/largest-number/) - Sort  
 [187. Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) - Hash Table, Bit Manipulation  
 [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) - Tree, DFS, BFS  
+[200. Number of Islands](https://leetcode.com/problems/number-of-islands/) - DFS, BFS, Union Find  

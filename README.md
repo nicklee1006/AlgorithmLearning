@@ -4,12 +4,12 @@
 
 [1. Two Sum](https://leetcode.com/problems/two-sum/) - Array, Hash Table  
 [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) - Linked List, Math  
-[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)  
-[5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)  
-[6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)  
-[7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)  
-[8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)  
-[9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)  
+[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) - Hash Table, Two Pointers, String, Sliding Window  
+[5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) - String, Dynamic Programming   
+[6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) - String   
+[7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) - Math   
+[8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) - Math, String   
+[9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) - Math   
 [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) - Array, Two Pointers   
 [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/)  
 [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)  

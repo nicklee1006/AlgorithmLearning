@@ -1,4 +1,4 @@
-package easy;
+package medium;
 
 import org.junit.Assert;
 import org.junit.Test;

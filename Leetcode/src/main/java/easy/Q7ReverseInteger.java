@@ -1,8 +1,5 @@
 package easy;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 /**
  * 2018.3.16 Question 7: Reverse Integer
  * https://leetcode.com/problems/reverse-integer/description/

@@ -1,6 +1,5 @@
 package medium;
 
-import medium.Q3LongestSubstringWithoutRepeatingCharacters;
 import org.junit.Assert;
 import org.junit.Test;
 

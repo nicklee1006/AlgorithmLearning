@@ -1,6 +1,5 @@
 package medium;
 
-import medium.Q8StringToInteger;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package easy;
+package medium;
 
 import java.math.BigDecimal;
 import util.ListNode;
@@ -28,13 +28,13 @@ public class Q2AddTwoNumbers {
         String tempL2 = String.valueOf(first2);
 
         while (l1.next != null) {
-            tempL1 = tempL1 + String.valueOf(l1.next.val);
+            tempL1 = tempL1 + l1.next.val;
 
             l1 = l1.next;
         }
 
         while (l2.next != null) {
-            tempL2 = tempL2 + String.valueOf(l2.next.val);
+            tempL2 = tempL2 + l2.next.val;
 
             l2 = l2.next;
         }

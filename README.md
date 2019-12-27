@@ -11,15 +11,15 @@
 [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) - Math, String   
 [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) - Math   
 [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) - Array, Two Pointers   
-[12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/)  
-[13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)  
-[14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)  
+[12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/) - Math, String  
+[13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) - Math, String  
+[14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) - String  
 [15. 3Sum](https://leetcode.com/problems/3sum/) - Array, Two Pointers  
 [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) - Array, Two Pointers  
-[17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)  
+[17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) - String, Backtracking  
 [18. 4Sum](https://leetcode.com/problems/4sum/) - Array, Hash Table, Two Pointers  
-[19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)  
-[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)  
+[19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) - Linked List, Two Pointers   
+[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) - String, Stack  
 [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)  
 [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)  
 [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  

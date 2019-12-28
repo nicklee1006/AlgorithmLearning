@@ -21,7 +21,9 @@ public class Q26RemoveDuplicatesFromSortedArray {
             return 0;
         }
 
+        // result as the length of processed array
         int result = 1;
+        // current is the last non-duplicate value met
         int current = nums[0];
 
         for (int i = 0; i < nums.length - 1; i++) {

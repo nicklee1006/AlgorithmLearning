@@ -28,6 +28,7 @@ public class Q21MergeTwoSortedLists {
             return l1;
         }
 
+        // dummy head
         ListNode dummyNode = new ListNode(0);
         ListNode node = dummyNode;
 
@@ -43,6 +44,7 @@ public class Q21MergeTwoSortedLists {
             node = node.next;
         }
 
+        // add whatever left to the end of result list
         node.next = l1 == null ? l2 : l1;
 
         return dummyNode.next;

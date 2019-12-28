@@ -22,6 +22,5 @@ public class Q24SwapNodesInPairsTest {
         assertTrue(LinkedListTestUtil.isTwoLinkedListEqual(expected1, Q24SwapNodesInPairs.swapPairs(testCase1)));
         assertTrue(LinkedListTestUtil.isTwoLinkedListEqual(expected2, Q24SwapNodesInPairs.swapPairs(testCase2)));
         assertTrue(LinkedListTestUtil.isTwoLinkedListEqual(expected3, Q24SwapNodesInPairs.swapPairs(testCase3)));
-
     }
 }

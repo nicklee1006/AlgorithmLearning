@@ -12,15 +12,23 @@ public class Q22GenerateParentheses {
         return results;
     }
 
+    // execute order
+    // ( -> (( -> ((( -> ((() -> ((()) -> ((())) -> add to result
+    // (( -> (() -> (()( -> (()() -> (()()) -> add to result
+    // (( -> (() -> (()) -> (())( -> (())() -> add to result
+    // ( -> () -> ()( -> ()(( -> ()(() -> ()(()) -> add to result
+    // ( -> () -> ()( -> ()() -> ()()( -> ()()() -> add to result
     private static void generateAll(List<String> result, String current, int left, int right, int n) {
         if (current.length() == n * 2) {
             result.add(current);
 
         } else {
+            // add left '(' as many as possible
             if (left < n) {
                 generateAll(result, current + "(", left + 1, right, n);
             }
 
+            // add right ')'
             if (right < left) {
                 generateAll(result, current + ")", left, right + 1, n);
             }

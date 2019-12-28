@@ -20,13 +20,13 @@
 [18. 4Sum](https://leetcode.com/problems/4sum/) - Array, Hash Table, Two Pointers  
 [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) - Linked List, Two Pointers   
 [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) - String, Stack  
-[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)  
-[22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)  
-[24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  
+[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) - Linked List  
+[22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) - String, Backtracking   
+[24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) - Linked List   
 [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) - Array, Two Pointers  
 [27. Remove Element](https://leetcode.com/problems/remove-element/) - Array, Two Pointers  
-[28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)  
-[29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)  
+[28. Implement strStr()](https://leetcode.com/problems/implement-strstr/) - Two Pointers, String  
+[29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) - Math, Binary Search  
 [31. Next Permutation](https://leetcode.com/problems/next-permutation/) - Array   
 [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) - Array, Binary Search  
 [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) -Array, Binary Search   

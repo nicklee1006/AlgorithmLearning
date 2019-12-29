@@ -7,7 +7,7 @@ public class Q36ValidSudoku {
     public static boolean isValidSudoku(char[][] board) {
         Set<Integer> numberSet = new HashSet<>();
         
-        // check rows
+        // check rows, if contains duplicates
         for (char[] chars : board) {
             for (char temp : chars) {
                 if (temp != '.') {
@@ -17,10 +17,11 @@ public class Q36ValidSudoku {
                 }
             }
 
+            // finished one row
             numberSet.clear();
         }
 
-        // check cols
+        // check cols, if contains duplicates
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[i].length; j++) {
                 if (board[j][i] != '.') {
@@ -30,6 +31,7 @@ public class Q36ValidSudoku {
                 }
             }
 
+            // finished one column
             numberSet.clear();
         }
 
@@ -47,6 +49,7 @@ public class Q36ValidSudoku {
                     }
                 }
 
+                // finished one 3*3 grid
                 numberSet.clear();
             }
         }

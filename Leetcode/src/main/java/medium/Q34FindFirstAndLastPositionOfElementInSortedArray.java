@@ -26,8 +26,10 @@ public class Q34FindFirstAndLastPositionOfElementInSortedArray {
             }
         }
 
+        // target not exist
         if (start == nums.length || nums[start] != target) {
             return result;
+        // if target exist, then start must point to the leftmost existence of target
         } else {
             result[0] = start;
         }

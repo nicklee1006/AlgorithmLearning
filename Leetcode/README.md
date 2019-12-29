@@ -1,40 +1,38 @@
-# AlgorithmLearning
+# Leetcode Questions
 
-## Leetcode Questions
-
-[1. Two Sum](https://leetcode.com/problems/two-sum/) - Array, Hash Table  
-[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) - Linked List, Math  
-[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) - Hash Table, Two Pointers, String, Sliding Window  
-[5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) - String, Dynamic Programming   
-[6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) - String   
-[7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) - Math   
-[8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) - Math, String   
-[9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) - Math   
-[11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) - Array, Two Pointers   
-[12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/) - Math, String  
-[13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) - Math, String  
-[14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) - String  
-[15. 3Sum](https://leetcode.com/problems/3sum/) - Array, Two Pointers  
-[16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) - Array, Two Pointers  
-[17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) - String, Backtracking  
-[18. 4Sum](https://leetcode.com/problems/4sum/) - Array, Hash Table, Two Pointers  
-[19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) - Linked List, Two Pointers   
-[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) - String, Stack  
-[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) - Linked List  
-[22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) - String, Backtracking   
-[24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) - Linked List   
-[26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) - Array, Two Pointers  
-[27. Remove Element](https://leetcode.com/problems/remove-element/) - Array, Two Pointers  
-[28. Implement strStr()](https://leetcode.com/problems/implement-strstr/) - Two Pointers, String  
-[29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) - Math, Binary Search  
-[31. Next Permutation](https://leetcode.com/problems/next-permutation/) - Array   
-[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) - Array, Binary Search  
-[34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) -Array, Binary Search   
-[35. Search Insert Position](https://leetcode.com/problems/search-insert-position)  
-[36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)  
-[38. Count and Say](https://leetcode.com/problems/count-and-say/)  
-[39. Combination Sum](https://leetcode.com/problems/combination-sum/) - Array, Backtracking   
-[40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) - Array, Backtracking  
+Easy - [1. Two Sum](https://leetcode.com/problems/two-sum/) - Array, Hash Table  
+Medium - [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) - Linked List, Math  
+Medium - [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) - Hash Table, Two Pointers, String, Sliding Window  
+Medium - [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) - String, Dynamic Programming   
+Medium - [6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) - String   
+Easy - [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) - Math   
+Medium - [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) - Math, String   
+Easy - [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) - Math   
+Medium - [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) - Array, Two Pointers   
+Medium - [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/) - Math, String  
+Easy - [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) - Math, String  
+Easy - [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) - String  
+Medium - [15. 3Sum](https://leetcode.com/problems/3sum/) - Array, Two Pointers  
+Medium - [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) - Array, Two Pointers  
+Medium - [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) - String, Backtracking  
+Medium - [18. 4Sum](https://leetcode.com/problems/4sum/) - Array, Hash Table, Two Pointers  
+Medium - [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) - Linked List, Two Pointers   
+Easy - [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) - String, Stack  
+Easy - [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) - Linked List  
+Medium - [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) - String, Backtracking   
+Medium - [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) - Linked List   
+Easy - [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) - Array, Two Pointers  
+Easy - [27. Remove Element](https://leetcode.com/problems/remove-element/) - Array, Two Pointers  
+Easy - [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/) - Two Pointers, String  
+Medium - [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) - Math, Binary Search  
+Medium - [31. Next Permutation](https://leetcode.com/problems/next-permutation/) - Array   
+Medium - [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) - Array, Binary Search  
+Medium - [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) -Array, Binary Search   
+Easy - [35. Search Insert Position](https://leetcode.com/problems/search-insert-position) - Array, Binary Search  
+Medium - [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) - Hash Table  
+Easy - [38. Count and Say](https://leetcode.com/problems/count-and-say/) - String  
+Medium - [39. Combination Sum](https://leetcode.com/problems/combination-sum/) - Array, Backtracking   
+Medium - [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) - Array, Backtracking  
 [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)  
 [46. Permutations](https://leetcode.com/problems/permutations/)  
 [47. Permutations II](https://leetcode.com/problems/permutations-ii/)  

@@ -2,6 +2,7 @@ package medium;
 
 public class Q43MultiplyStrings {
     public static String multiply(String num1, String num2) {
+        // one of the number is zero
         if (num1.equals("0") || num2.equals("0")) {
             return "0";
         }
@@ -9,12 +10,14 @@ public class Q43MultiplyStrings {
         String result = "0";
         int index = 0;
 
+        // from right to left, traverse number2
         for (int i = num2.length() - 1; i >= 0; i--) {
             StringBuilder tempResult = new StringBuilder();
             int carry = 0;
 
             int tempNum2 = num2.charAt(i) - '0';
 
+            // from right to left, traverse number1, multiple tempNum1 and tempNum2
             for (int j = num1.length() - 1; j >= 0; j--) {
                 int tempNum1 = num1.charAt(j) - '0';
 

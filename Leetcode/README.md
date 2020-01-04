@@ -33,12 +33,12 @@ Medium - [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) - Hash 
 Easy - [38. Count and Say](https://leetcode.com/problems/count-and-say/) - String  
 Medium - [39. Combination Sum](https://leetcode.com/problems/combination-sum/) - Array, Backtracking   
 Medium - [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) - Array, Backtracking  
-[43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)  
-[46. Permutations](https://leetcode.com/problems/permutations/)  
-[47. Permutations II](https://leetcode.com/problems/permutations-ii/)  
-[48. Rotate Image](https://leetcode.com/problems/rotate-image/) - Array  
-[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)  
-[50. Pow(x, n)](https://leetcode.com/problems/powx-n/)  
+Medium - [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/) - Math, String  
+Medium - [46. Permutations](https://leetcode.com/problems/permutations/) - Backtracking  
+Medium - [47. Permutations II](https://leetcode.com/problems/permutations-ii/) - Backtracking  
+Medium - [48. Rotate Image](https://leetcode.com/problems/rotate-image/) - Array  
+Medium - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) - Hash Table, String   
+Medium - [50. Pow(x, n)](https://leetcode.com/problems/powx-n/) - Math, Binary Search  
 [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) - Array, Divide and Conquer, Dynamic Programming  
 [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) - Array  
 [55. Jump Game](https://leetcode.com/problems/jump-game/) - Array, Greedy  
@@ -49,14 +49,14 @@ Medium - [40. Combination Sum II](https://leetcode.com/problems/combination-sum-
 [61. Rotate List](https://leetcode.com/problems/rotate-list/)  
 [62. Unique Paths](https://leetcode.com/problems/unique-paths/) - Array, Dynamic Programming  
 [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) - Array, Dynamic Programming  
-[64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)  
+[64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) - Array, Dynamic Programming  
 [66. Plus One](https://leetcode.com/problems/plus-one/)  
 [67. Add Binary](https://leetcode.com/problems/add-binary/)  
 [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)  
 [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)  
 [71. Simplify Path](https://leetcode.com/problems/simplify-path/)  
 [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)  
-[74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)  
+[74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) - Array, Binary Search  
 [75. Sort Colors](https://leetcode.com/problems/sort-colors/)  
 [77. Combinations](https://leetcode.com/problems/combinations/)  
 [78. Subsets](https://leetcode.com/problems/subsets/)  

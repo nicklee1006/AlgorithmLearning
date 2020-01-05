@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Q60PermutationSequence {
+    // record n!, keep it here to speed up
     private static Map<Integer, Integer> factorialTable = new HashMap<>();
 
     public static String getPermutation(int n, int k) {
@@ -17,11 +18,16 @@ public class Q60PermutationSequence {
         return getResult(nums, n, k);
     }
 
+    // nums initially is '1,2,3,4,5,....n'
     private static String getResult(List<Integer> nums, int n, int k) {
         StringBuilder stringBuilder = new StringBuilder();
 
         while (n > 1) {
+            // permutation starting with the same number is a group
+            // how many number in each group
+            // e.g. if n = 3, each group has 2 numbers
             int numPerGroup = factorial(n - 1);
+            // which group is our target number in
             int groupNum = (k - 1) / numPerGroup;
 
             stringBuilder.append(nums.get(groupNum));

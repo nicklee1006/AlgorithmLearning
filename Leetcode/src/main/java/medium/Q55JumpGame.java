@@ -10,14 +10,17 @@ public class Q55JumpGame {
         int index = 0;
 
         while (index < nums.length) {
+            // the furthest from the current and previous position
             furthest = Math.max(furthest, nums[index] + index);
 
             index++;
 
+            // if this position can't be reached
             if (index > furthest) {
                 return false;
             }
 
+            // already reach the end
             if (furthest >= nums.length - 1) {
                 return true;
             }

@@ -11,6 +11,5 @@ public class Q55JumpGameTest {
         Assert.assertFalse(Q55JumpGame.canJump(new int[]{3,2,1,0,4}));
         Assert.assertFalse(Q55JumpGame.canJump(new int[]{0, 2, 3}));
         Assert.assertTrue(Q55JumpGame.canJump(new int[]{0}));
-
     }
 }

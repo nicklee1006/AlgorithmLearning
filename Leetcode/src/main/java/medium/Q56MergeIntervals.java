@@ -14,16 +14,22 @@ public class Q56MergeIntervals {
 
         List<List<Integer>> listResults = new ArrayList<>();
 
+        // sort based on the left end
         Arrays.sort(intervals, Comparator.comparingInt(o -> o[0]));
 
+        // add first interval
         listResults.add(Arrays.stream(intervals[0]).boxed().collect(Collectors.toList()));
+
         for (int i = 1; i < intervals.length; i++) {
             Integer[] previous = listResults.get(listResults.size() - 1).toArray(new Integer[0]);
 
+            // if previous interval overlap with current one
             if (isOverlap(previous, intervals[i])) {
+                // merge previous and current interval
                 listResults.get(listResults.size() - 1).set(0, Math.min(previous[0], intervals[i][0]));
                 listResults.get(listResults.size() - 1).set(1, Math.max(previous[1], intervals[i][1]));
             } else {
+                // add current one to result set
                 listResults.add(Arrays.stream(intervals[i]).boxed().collect(Collectors.toList()));
             }
         }

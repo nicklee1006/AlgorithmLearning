@@ -19,6 +19,7 @@ public class Q69SqrtX {
         int result = 0;
 
         while (start <= end) {
+            // avoid overflow if (start + end) is too large
             int mid = end - (end - start) / 2;
 
             if (mid == x / mid) {

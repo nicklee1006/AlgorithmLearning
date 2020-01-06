@@ -10,6 +10,5 @@ public class Q69SqrtXTest {
         Assert.assertEquals(2, Q69SqrtX.mySqrt(4));
         Assert.assertEquals(2, Q69SqrtX.mySqrt(8));
         Assert.assertEquals(46340, Q69SqrtX.mySqrt(2147395600));
-
     }
 }

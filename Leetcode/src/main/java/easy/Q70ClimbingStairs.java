@@ -1,8 +1,5 @@
 package easy;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * 2018.4.2: Climbing Stairs
  * https://leetcode.com/problems/climbing-stairs/description/
@@ -16,11 +13,13 @@ import java.util.Map;
  */
 public class Q70ClimbingStairs {
     public static int climbStairs(int n) {
+        // dp to store previous results
         int[] dp = new int[n + 1];
 
         return climb(n, dp);
     }
 
+    // to reach step 'n', either take 1 step from n-1 or 2 steps from n - 2
     private static int climb(int n, int[] dp) {
         if (n == 1) {
             return 1;
@@ -30,6 +29,7 @@ public class Q70ClimbingStairs {
             return 2;
         }
 
+        // the result has been calculated before
         if (dp[n] != 0) {
             return dp[n];
         } else {

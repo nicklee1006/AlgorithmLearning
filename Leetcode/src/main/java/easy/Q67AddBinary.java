@@ -18,15 +18,19 @@ public class Q67AddBinary {
      * Scan from right to left.
      */
     public static String addBinary(String a, String b) {
+        // current index from right to left
         int pos = 0;
         int carry = 0;
         StringBuilder result = new StringBuilder();
 
         while (pos < a.length() || pos < b.length() || carry == 1) {
+            // get number or set to 0 if not enough length
             int x = (pos < a.length()) ? Character.getNumericValue(a.charAt(a.length() - 1 - pos)) : 0;
             int y = (pos < b.length()) ? Character.getNumericValue(b.charAt(b.length() - 1 - pos)) : 0;
 
+            // decide the number
             int temp = (x + y + carry) % 2;
+            // decide carry
             carry = (x + y + carry) > 1 ? 1 : 0;
 
             result.append(temp);

@@ -46,14 +46,14 @@ Medium - [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) -
 Easy - [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/) - String  
 Medium - [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) - Array  
 Medium - [60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) - Math, Backtracking  
-[61. Rotate List](https://leetcode.com/problems/rotate-list/)  
-[62. Unique Paths](https://leetcode.com/problems/unique-paths/) - Array, Dynamic Programming  
-[63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) - Array, Dynamic Programming  
-[64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) - Array, Dynamic Programming  
-[66. Plus One](https://leetcode.com/problems/plus-one/)  
-[67. Add Binary](https://leetcode.com/problems/add-binary/)  
-[69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)  
-[70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)  
+Medium - [61. Rotate List](https://leetcode.com/problems/rotate-list/) - Linked List, Two Pointers  
+Medium - [62. Unique Paths](https://leetcode.com/problems/unique-paths/) - Array, Dynamic Programming  
+Medium - [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) - Array, Dynamic Programming  
+Medium - [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) - Array, Dynamic Programming  
+Easy - [66. Plus One](https://leetcode.com/problems/plus-one/) - Array  
+Easy - [67. Add Binary](https://leetcode.com/problems/add-binary/) - Math, String   
+Easy - [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) - Math, Binary Search   
+Easy - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) - Dynamic Programming  
 [71. Simplify Path](https://leetcode.com/problems/simplify-path/)  
 [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)  
 [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) - Array, Binary Search  

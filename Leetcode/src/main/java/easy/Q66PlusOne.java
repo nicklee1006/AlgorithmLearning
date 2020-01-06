@@ -18,12 +18,14 @@ public class Q66PlusOne {
      *      3. Handle 999999, special case
      */
     public static int[] plusOne(int[] digits) {
-        for (int i = digits.length -1; i >= 0; i--) {
+        for (int i = digits.length - 1; i >= 0; i--) {
+            // if any digit is not 0, then increase it and return
             if (digits[i] != 9) {
                 digits[i]++;
                 return digits;
             }
 
+            // this digit is 9, so set to 0 and increase the digit left to it.
             digits[i] = 0;
         }
 

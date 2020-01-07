@@ -8,6 +8,7 @@ public class Q73SetMatrixZeroes {
         boolean[] isRowZero = new boolean[row];
         boolean[] isColZero = new boolean[col];
 
+        // first loop, check which row and col has '0'
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
                 if (matrix[i][j] == 0) {
@@ -17,6 +18,7 @@ public class Q73SetMatrixZeroes {
             }
         }
 
+        // check row
         for (int i = 0; i < row; i++) {
             if (isRowZero[i]) {
                 // set the row 0
@@ -26,6 +28,7 @@ public class Q73SetMatrixZeroes {
             }
         }
 
+        // check col
         for (int i = 0; i < col; i++) {
             if (isColZero[i]) {
                 // set the col 0

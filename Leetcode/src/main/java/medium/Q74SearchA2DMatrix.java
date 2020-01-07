@@ -10,6 +10,7 @@ public class Q74SearchA2DMatrix {
 
         // loop each row, find which row the target belongs to
         for (int[] ints : matrix) {
+            // target in this row
             if (target >= ints[0] && target <= ints[col - 1]) {
                 // use binary search to this row
                 int low = 0;

@@ -2,7 +2,9 @@ package medium;
 
 public class Q75SortColors {
     public static void sortColors(int[] nums) {
+        // elements before this are all '0'
         int zeroIndex = 0;
+        // elements after this are all '2'
         int twoIndex = nums.length - 1;
 
         for (int i = 0; i <= twoIndex; i++) {
@@ -20,6 +22,7 @@ public class Q75SortColors {
                 nums[i] = temp;
 
                 twoIndex--;
+                // need to reduce this to check exchanged element
                 i--;
             }
         }

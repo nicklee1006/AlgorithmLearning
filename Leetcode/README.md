@@ -54,14 +54,14 @@ Easy - [66. Plus One](https://leetcode.com/problems/plus-one/) - Array
 Easy - [67. Add Binary](https://leetcode.com/problems/add-binary/) - Math, String   
 Easy - [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) - Math, Binary Search   
 Easy - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) - Dynamic Programming  
-[71. Simplify Path](https://leetcode.com/problems/simplify-path/)  
-[73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)  
-[74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) - Array, Binary Search  
-[75. Sort Colors](https://leetcode.com/problems/sort-colors/)  
-[77. Combinations](https://leetcode.com/problems/combinations/)  
-[78. Subsets](https://leetcode.com/problems/subsets/)  
-[79. Word Search](https://leetcode.com/problems/word-search/)  
-[80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)  
+Medium - [71. Simplify Path](https://leetcode.com/problems/simplify-path/) - String, Stack   
+Medium - [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) - Array  
+Medium - [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) - Array, Binary Search  
+Medium - [75. Sort Colors](https://leetcode.com/problems/sort-colors/) - Array, Two Pointers, Sort  
+Medium - [77. Combinations](https://leetcode.com/problems/combinations/) - Backtracking  
+Medium - [78. Subsets](https://leetcode.com/problems/subsets/) - Array, Backtracking, Bit Manipulation  
+Medium - [79. Word Search](https://leetcode.com/problems/word-search/) - Array, Backtracking  
+Medium - [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) - Array, Two Pointers  
 [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)  
 [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)  
 [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)  

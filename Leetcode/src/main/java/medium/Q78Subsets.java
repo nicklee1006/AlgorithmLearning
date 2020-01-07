@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Q78Subsets {
     public static List<List<Integer>> subsets(int[] nums) {
+        // result list
         List<List<Integer>> results = new ArrayList<>();
 
         // add empty list

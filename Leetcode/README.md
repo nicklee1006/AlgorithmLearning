@@ -62,13 +62,13 @@ Medium - [77. Combinations](https://leetcode.com/problems/combinations/) - Backt
 Medium - [78. Subsets](https://leetcode.com/problems/subsets/) - Array, Backtracking, Bit Manipulation  
 Medium - [79. Word Search](https://leetcode.com/problems/word-search/) - Array, Backtracking  
 Medium - [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) - Array, Two Pointers  
-[81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)  
-[82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)  
-[83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)  
-[86. Partition List](https://leetcode.com/problems/partition-list/)  
-[88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)  
-[89. Gray Code](https://leetcode.com/problems/gray-code/)  
-[90. Subsets II](https://leetcode.com/problems/subsets-ii/)  
+Medium - [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) - Array, Binary Search  
+Medium - [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) - Linked List   
+Easy - [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) - Linked List  
+Medium - [86. Partition List](https://leetcode.com/problems/partition-list/) - Linked List, Two Pointers   
+Easy - [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) - Array, Two Pointers  
+Medium - [89. Gray Code](https://leetcode.com/problems/gray-code/) - Backtracking  
+Medium - [90. Subsets II](https://leetcode.com/problems/subsets-ii/) - Array, Backtracking   
 [91. Decode Ways](https://leetcode.com/problems/decode-ways/)  
 [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)  
 [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)  

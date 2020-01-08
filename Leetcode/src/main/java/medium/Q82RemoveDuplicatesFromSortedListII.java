@@ -4,6 +4,8 @@ import util.ListNode;
 
 public class Q82RemoveDuplicatesFromSortedListII {
     public static ListNode deleteDuplicates(ListNode head) {
+        // dummy head, finally just return dummyHead.next
+        // common used in linked list questions
         ListNode dummyHead = new ListNode(0);
         dummyHead.next = head;
 
@@ -11,6 +13,7 @@ public class Q82RemoveDuplicatesFromSortedListII {
         ListNode current = head;
 
         while (current != null && current.next != null) {
+            // not equal, move forward
             if (current.val != current.next.val) {
                 previous = current;
                 current = current.next;
@@ -21,6 +24,7 @@ public class Q82RemoveDuplicatesFromSortedListII {
                     temp = temp.next;
                 }
 
+                // at this point temp point to the last duplicate node
                 previous.next = temp.next;
                 current = temp.next;
             }

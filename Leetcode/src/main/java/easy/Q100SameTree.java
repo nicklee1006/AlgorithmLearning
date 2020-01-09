@@ -21,12 +21,15 @@ public class Q100SameTree {
     }
 
     private static boolean inorderTraversal(TreeNode p, TreeNode q) {
+        // both finish traverse
         if (p == null && q == null) {
             return true;
+        // one of the tree is empty, then must different
         } else if (p == null || q == null) {
             return false;
         }
 
+        // check left tree
         if (!inorderTraversal(p.left, q.left)) {
             return false;
         }
@@ -35,6 +38,7 @@ public class Q100SameTree {
             return false;
         }
 
+        // check right tree
         if (!inorderTraversal(p.right, q.right)) {
             return false;
         }

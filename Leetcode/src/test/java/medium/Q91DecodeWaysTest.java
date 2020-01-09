@@ -16,6 +16,5 @@ public class Q91DecodeWaysTest {
         assertEquals(0, Q91DecodeWays.numDecodings("01"));
         assertEquals(0, Q91DecodeWays.numDecodings("230"));
         assertEquals(0, Q91DecodeWays.numDecodings("301"));
-
     }
 }

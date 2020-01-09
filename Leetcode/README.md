@@ -69,14 +69,14 @@ Medium - [86. Partition List](https://leetcode.com/problems/partition-list/) - L
 Easy - [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) - Array, Two Pointers  
 Medium - [89. Gray Code](https://leetcode.com/problems/gray-code/) - Backtracking  
 Medium - [90. Subsets II](https://leetcode.com/problems/subsets-ii/) - Array, Backtracking   
-[91. Decode Ways](https://leetcode.com/problems/decode-ways/)  
-[92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)  
-[93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)  
-[94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)  
-[95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)  
-[96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)    
-[98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)  
-[100. Same Tree](https://leetcode.com/problems/same-tree/)  
+Medium - [91. Decode Ways](https://leetcode.com/problems/decode-ways/) - String, Dynamic Programming  
+Medium - [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) - Linked List  
+Medium - [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/) - String, Backtracking  
+Medium - [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) - Hash Table, Stack, Tree  
+Medium - [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) - Dynamic Programming, Tree  
+Medium - [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) - Dynamic Programming, Tree    
+Medium - [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) - Tree, DFS  
+Easy - [100. Same Tree](https://leetcode.com/problems/same-tree/) - Tree, DFS  
 [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)  
 [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)  
 [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)  

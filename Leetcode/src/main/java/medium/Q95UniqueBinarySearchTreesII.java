@@ -16,6 +16,7 @@ public class Q95UniqueBinarySearchTreesII {
         return getResults(1, n);
     }
 
+    // recursive
     private static List<TreeNode> getResults(int start, int end) {
         List<TreeNode> results = new ArrayList<>();
 

@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Q96UniqueBinarySearchTrees {
+    // dynamic programming values
     static Map<Integer, Integer> map = new HashMap<>();
 
     public static int numTrees(int n) {

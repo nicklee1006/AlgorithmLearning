@@ -14,6 +14,7 @@ public class Q94BinaryTreeInorderTraversal {
         return result;
     }
 
+    // standard way to traverse tree inorder. Recursive
     private static void getAnswer(TreeNode node, List<Integer> result) {
         if (node == null) {
             return;

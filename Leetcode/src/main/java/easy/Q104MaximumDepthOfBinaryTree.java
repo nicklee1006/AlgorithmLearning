@@ -19,6 +19,7 @@ public class Q104MaximumDepthOfBinaryTree {
             return 0;
         }
 
+        // current level + higher of left/right tree
         return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
     }
 }

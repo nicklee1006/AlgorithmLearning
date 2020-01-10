@@ -7,6 +7,7 @@ import java.util.Map;
 
 public class Q106ConstructBinaryTreeFromInorderAndPostorderTraversal {
     public static TreeNode buildTree(int[] inorder, int[] postorder) {
+        // value -> index map of inorder to have fast access
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < inorder.length; i++) {
             map.put(inorder[i], i);
@@ -23,9 +24,12 @@ public class Q106ConstructBinaryTreeFromInorderAndPostorderTraversal {
             return null;
         }
 
+        // get root from postorder (last one)
         int rootVal = postOrder[postOrderEnd - 1];
+        // get index of root node from inorder
         int rootIndex = map.get(rootVal);
 
+        // number of nodes in left tree
         int leftTreeSize = rootIndex - inOrderStart;
 
         TreeNode root = new TreeNode(rootVal);

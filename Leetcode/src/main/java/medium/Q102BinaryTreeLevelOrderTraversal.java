@@ -9,6 +9,7 @@ import util.TreeNode;
 
 public class Q102BinaryTreeLevelOrderTraversal {
     public static List<List<Integer>> levelOrder(TreeNode root) {
+        // result list
         List<List<Integer>> result = new ArrayList<>();
 
         if (root == null) {
@@ -21,8 +22,10 @@ public class Q102BinaryTreeLevelOrderTraversal {
         int size = queue.size();
 
         while (!queue.isEmpty()) {
+            // values on this level
             List<Integer> temp = new ArrayList<>();
 
+            // size of this level
             for (int i = 0; i < size; i++) {
                 TreeNode node = queue.poll();
 
@@ -38,6 +41,7 @@ public class Q102BinaryTreeLevelOrderTraversal {
             }
 
             result.add(temp);
+            // size of next level
             size = queue.size();
         }
 

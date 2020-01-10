@@ -16,11 +16,13 @@ public class Q103BinaryTreeZigzagLevelOrderTraversal {
         queue.offer(root);
 
         int size = queue.size();
+        // flag to indicate if need to reverse
         boolean reverse = false;
 
         while (!queue.isEmpty()) {
             List<Integer> temp = new ArrayList<>();
 
+            // size is the number of node in this level
             for (int i = 0; i < size; i++) {
                 TreeNode node = queue.poll();
 
@@ -35,6 +37,7 @@ public class Q103BinaryTreeZigzagLevelOrderTraversal {
                 temp.add(node.val);
             }
 
+            // if need reverse or not
             if (reverse) {
                 Collections.reverse(temp);
                 reverse = false;

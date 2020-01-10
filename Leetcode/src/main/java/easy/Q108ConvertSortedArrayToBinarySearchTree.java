@@ -24,15 +24,18 @@ public class Q108ConvertSortedArrayToBinarySearchTree {
         return node;
     }
 
+    // keep find the mid value
     private static TreeNode findMiddle(int[] num, int lowIndex, int highIndex) {
         if (lowIndex > highIndex) {
             return null;
         }
 
+        // mid index
         int middleIndex = (lowIndex + highIndex)/2;
 
         TreeNode tempRoot = new TreeNode(num[middleIndex]);
 
+        // find left node of current node
         tempRoot.left = findMiddle(num, lowIndex, middleIndex - 1);
         tempRoot.right = findMiddle(num, middleIndex + 1, highIndex);
 

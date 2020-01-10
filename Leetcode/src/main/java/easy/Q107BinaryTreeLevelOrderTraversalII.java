@@ -32,6 +32,7 @@ public class Q107BinaryTreeLevelOrderTraversalII {
 
         while (queue.size() > 0) {
             List<Integer> temp = new ArrayList<>();
+            // size of this level
             int size = queue.size();
 
             for (int i = 0; i < size; i++) {
@@ -48,6 +49,7 @@ public class Q107BinaryTreeLevelOrderTraversalII {
                 }
             }
 
+            // add to the from of list
             result.add(0, temp);
         }
 

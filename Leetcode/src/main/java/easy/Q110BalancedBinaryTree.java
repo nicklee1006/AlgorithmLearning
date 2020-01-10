@@ -20,13 +20,16 @@ public class Q110BalancedBinaryTree {
             return true;
         }
 
+        // check depth difference
         if (Math.abs(depth(root.left) - depth(root.right)) > 1) {
             return false;
         }
 
+        // check left and right tree are balanced
         return isBalanced(root.left) && isBalanced(root.right);
     }
 
+    // find depth of the tree
     private static int depth(TreeNode root) {
         if (root == null) {
             return 0;

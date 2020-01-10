@@ -8,11 +8,13 @@ public class Q109ConvertSortedListToBinarySearchTree {
         return findMiddle(head, null);
     }
 
+    // need to find the middle node in the linked list
     private static TreeNode findMiddle(ListNode start, ListNode end) {
         if (start == end) {
             return null;
         }
 
+        // slow and fast pointer to find middle node
         ListNode slow = start;
         ListNode fast = start;
 

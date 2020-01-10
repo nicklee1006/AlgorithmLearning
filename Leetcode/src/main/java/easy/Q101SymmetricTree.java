@@ -31,6 +31,7 @@ public class Q101SymmetricTree {
             TreeNode currentLeft = leftTree.poll();
             TreeNode currentRight = rightTree.poll();
 
+            // one of the node is not empty
             if ((currentLeft == null && currentRight != null) || (currentLeft != null && currentRight == null)) {
                 return false;
             }
@@ -40,9 +41,11 @@ public class Q101SymmetricTree {
                     return false;
                 }
 
+                // enqueue left first
                 leftTree.offer(currentLeft.left);
                 leftTree.offer(currentLeft.right);
 
+                // enqueue right first
                 rightTree.offer(currentRight.right);
                 rightTree.offer(currentRight.left);
             }

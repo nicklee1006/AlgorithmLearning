@@ -18,6 +18,7 @@ public class Q114FlattenBinaryTreeToLinkedList {
         while (!preOrder.isEmpty()) {
             TreeNode newNode = new TreeNode(preOrder.poll());
 
+            // left node always null
             current.left = null;
             current.right = newNode;
 
@@ -25,6 +26,7 @@ public class Q114FlattenBinaryTreeToLinkedList {
         }
     }
 
+    // pre order traverse
     private static void preOrder(TreeNode root, Queue<Integer> preOrder) {
         if (root == null) {
             return;

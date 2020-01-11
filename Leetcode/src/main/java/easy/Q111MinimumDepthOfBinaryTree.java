@@ -22,11 +22,15 @@ public class Q111MinimumDepthOfBinaryTree {
             return 0;
         }
 
+        // min depth of left
         int leftDepth = minDepth(root.left);
+        // min depth of right
         int rightDepth = minDepth(root.right);
 
+        // no left tree
         if (leftDepth == 0) {
             return 1 + rightDepth;
+        // no right tree
         } else if (rightDepth == 0) {
             return 1 + leftDepth;
         } else {

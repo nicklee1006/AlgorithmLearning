@@ -87,15 +87,15 @@ Easy - [107. Binary Tree Level Order Traversal II](https://leetcode.com/problem
 Easy - [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) - Tree, DFS  
 Medium - [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) - Linked List, DFS 
 Easy - [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) - Tree, DFS  
-[111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)  
-[112. Path Sum](https://leetcode.com/problems/path-sum/)    
-[113. Path Sum II](https://leetcode.com/problems/path-sum-ii/)  
-[114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)  
-[116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)  
-[117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)  
-[118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)  
-[119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)  
-[120. Triangle](https://leetcode.com/problems/triangle/)  
+Easy - [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) - Tree, DFS, BFS  
+Easy - [112. Path Sum](https://leetcode.com/problems/path-sum/) - Tree, DFS    
+Medium - [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/) - Tree, DFS  
+Medium - [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) - Tree, DFS  
+Medium - [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) - Tree, DFS  
+Medium - [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) - Tree, DFS  
+Easy - [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) - Array  
+Easy - [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) - Array  
+Medium - [120. Triangle](https://leetcode.com/problems/triangle/) - Array, Dynamic Programming  
 [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)  
 [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)  
 [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)  

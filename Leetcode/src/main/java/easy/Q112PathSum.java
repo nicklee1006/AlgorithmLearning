@@ -19,10 +19,12 @@ public class Q112PathSum {
             return false;
         }
 
+        // reach leave node
         if (root.left == null && root.right == null && sum == root.val) {
             return true;
         }
 
+        // check left tree and right tree
         return hasPathSum(root.left, sum - root.val) || hasPathSum(root.right, sum - root.val);
     }
 }

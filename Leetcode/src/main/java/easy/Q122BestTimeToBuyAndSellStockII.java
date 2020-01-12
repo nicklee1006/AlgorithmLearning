@@ -19,6 +19,8 @@ public class Q122BestTimeToBuyAndSellStockII {
             return 0;
         }
 
+        // do as many transaction as possible
+        // as long as there is profit
         int result = 0;
         for (int i = 0; i < prices.length - 1; i++) {
             if (prices[i + 1] > prices[i]) {

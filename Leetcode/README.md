@@ -96,12 +96,12 @@ Medium - [117. Populating Next Right Pointers in Each Node II](https://leetcode.
 Easy - [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) - Array  
 Easy - [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) - Array  
 Medium - [120. Triangle](https://leetcode.com/problems/triangle/) - Array, Dynamic Programming  
-[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)  
-[122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)  
-[125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)  
-[127. Word Ladder](https://leetcode.com/problems/word-ladder/)  
-[129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)  
-[130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)  
+Easy - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) - Array, Dynamic Programming  
+Easy - [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) - Array, Greedy  
+Easy - [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) - Two Pointers, String  
+Medium - [127. Word Ladder](https://leetcode.com/problems/word-ladder/) - BFS  
+Medium - [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) - Tree, DFS  
+Medium - [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) - DFS, BFS, Union Find  
 [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)  
 [134. Gas Station](https://leetcode.com/problems/gas-station/)  
 [136. Single Number](https://leetcode.com/problems/single-number/)  

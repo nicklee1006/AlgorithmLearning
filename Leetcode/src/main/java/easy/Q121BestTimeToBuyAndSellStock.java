@@ -16,11 +16,14 @@ public class Q121BestTimeToBuyAndSellStock {
     public static int maxProfit(int[] prices) {
         int result = 0;
 
+        // 2 pointers
         int buyIndex = 0;
         int sellIndex = 0;
 
+        // sellIndex in the current index
         for (; sellIndex < prices.length; sellIndex++) {
-            // if we have a smaller value of buy, point buy to this one, as we want buy at lower price
+            // if we have a smaller value of buy, point buyIndex to this one, as we want buy at lower price
+            // idea is to find the min price to buy
             if (prices[sellIndex] < prices[buyIndex]) {
                 buyIndex = sellIndex;
             } else {

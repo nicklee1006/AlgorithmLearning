@@ -8,7 +8,7 @@ public class Q127WordLadder {
             return 0;
         }
 
-        // dynamic programming
+        // dynamic programming cache
         Map<String, List<String>> cache = new HashMap<>();
         Set<String> visited = new HashSet<>();
 
@@ -59,6 +59,7 @@ public class Q127WordLadder {
         return 0;
     }
 
+    // get words that only have 1 char difference
     private static List<String> getNeighbors(String source, List<String> wordList) {
         List<String> results = new ArrayList<>();
 
@@ -76,6 +77,7 @@ public class Q127WordLadder {
         return results;
     }
 
+    // get difference of char in 2 strings
     private static int stringDifference(String a, String b) {
         int diff = 0;
 

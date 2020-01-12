@@ -20,6 +20,7 @@ public class Q125ValidPalindrome {
             return true;
         }
 
+        // 2 pointers
         int first = 0;
         int last = s.length() - 1;
 
@@ -28,16 +29,19 @@ public class Q125ValidPalindrome {
             charFirst = s.charAt(first);
             charLast = s.charAt(last);
 
+            // move first forward if it's not a letter
             if (!Character.isLetterOrDigit(charFirst)) {
                 first++;
                 continue;
             }
 
+            // move last backward if it's not a letter
             if (!Character.isLetterOrDigit(charLast)) {
                 last--;
                 continue;
             }
 
+            // at this point, both first and last are letter, just need to know if they are same
             if (Character.toLowerCase(charFirst) != Character.toLowerCase(charLast)) {
                 return false;
             }

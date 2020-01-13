@@ -24,6 +24,7 @@ public class Q131PalindromePartitioning {
                 String left = s.substring(start, i + 1);
 
                 for (List<String> temp : helper(s, i + 1)) {
+                    // append left part in beginning
                     temp.add(0, left);
                     result.add(temp);
                 }
@@ -33,6 +34,7 @@ public class Q131PalindromePartitioning {
         return result;
     }
 
+    // helper method to check whether a string is palindrome
     private static boolean isPalindrome(String s) {
         int i = 0;
         int j = s.length() - 1;

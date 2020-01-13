@@ -6,9 +6,10 @@ public class Q134GasStation {
 
         // start from index 0
         for (int startIndex = 0; startIndex < gas.length; startIndex++) {
+            // remaining gas
             int remaining = gas[startIndex];
 
-            // if can't get to next point
+            // if can't get to next point, moving to next startIndex
             if ((remaining - cost[startIndex]) < 0) {
                 continue;
             }

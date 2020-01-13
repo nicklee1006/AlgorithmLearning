@@ -102,11 +102,11 @@ Easy - [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) 
 Medium - [127. Word Ladder](https://leetcode.com/problems/word-ladder/) - BFS  
 Medium - [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) - Tree, DFS  
 Medium - [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) - DFS, BFS, Union Find  
-[131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)  
-[134. Gas Station](https://leetcode.com/problems/gas-station/)  
-[136. Single Number](https://leetcode.com/problems/single-number/)  
-[137. Single Number II](https://leetcode.com/problems/single-number-ii/)  
-[139. Word Break](https://leetcode.com/problems/word-break/)  
+Medium - [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) - Backtracking  
+Medium - [134. Gas Station](https://leetcode.com/problems/gas-station/) - Greedy  
+Easy - [136. Single Number](https://leetcode.com/problems/single-number/) - Hash Table, Bit Manipulation  
+Medium - [137. Single Number II](https://leetcode.com/problems/single-number-ii/) - Bit Manipulation  
+Medium - [139. Word Break](https://leetcode.com/problems/word-break/) - Dynamic Programming  
 [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)  
 [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)  
 [143. Reorder List](https://leetcode.com/problems/reorder-list/)  

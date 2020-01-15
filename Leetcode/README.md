@@ -107,14 +107,14 @@ Medium - [134. Gas Station](https://leetcode.com/problems/gas-station/) - Greedy
 Easy - [136. Single Number](https://leetcode.com/problems/single-number/) - Hash Table, Bit Manipulation  
 Medium - [137. Single Number II](https://leetcode.com/problems/single-number-ii/) - Bit Manipulation  
 Medium - [139. Word Break](https://leetcode.com/problems/word-break/) - Dynamic Programming  
-[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)  
-[142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)  
-[143. Reorder List](https://leetcode.com/problems/reorder-list/)  
-[144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)  
-[146. LRU Cache](https://leetcode.com/problems/lru-cache/)  
-[147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/submissions/) - Linked List, Sort  
-[148. Sort List](https://leetcode.com/problems/sort-list/) - Linked List, Sort  
-[150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) - Stack  
+Easy - [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) - Linked List, Two Pointers  
+Medium - [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) - Linked List, Two Pointers  
+Medium - [143. Reorder List](https://leetcode.com/problems/reorder-list/) - Linked List  
+Medium - [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) - Stack, Tree  
+Medium - [146. LRU Cache](https://leetcode.com/problems/lru-cache/) - Design  
+Medium - [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/submissions/) - Linked List, Sort  
+Medium - [148. Sort List](https://leetcode.com/problems/sort-list/) - Linked List, Sort  
+Medium - [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) - Stack  
 [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) - String  
 [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) - Array, Dynamic Programming  
 [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) - Array, Binary Search  

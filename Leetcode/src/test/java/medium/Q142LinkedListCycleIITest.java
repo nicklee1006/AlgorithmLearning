@@ -21,6 +21,5 @@ public class Q142LinkedListCycleIITest {
         assertTrue(LinkedListTestUtil.isFirstNNodesOfTwoLinkedListEqual(expected1, Q142LinkedListCycleII.detectCycle(input1), 3));
         assertTrue(LinkedListTestUtil.isFirstNNodesOfTwoLinkedListEqual(expected2, Q142LinkedListCycleII.detectCycle(input2), 2));
         assertFalse(LinkedListTestUtil.isFirstNNodesOfTwoLinkedListEqual(expected3, Q142LinkedListCycleII.detectCycle(input3), 1));
-
     }
 }

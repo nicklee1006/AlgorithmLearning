@@ -13,7 +13,7 @@ public class Q143ReorderList {
             return;
         }
 
-        // put all nodes in a list so that we can visit it sequencely
+        // put all nodes in a list so that we can visit it in order
         while (head != null) {
             list.add(head);
 
@@ -24,6 +24,7 @@ public class Q143ReorderList {
         int tail = list.size() - 1;
 
         while (start < tail) {
+            // two pointers
             ListNode front = list.get(start);
             ListNode end = list.get(tail);
 

@@ -14,6 +14,7 @@ public class Q144BinaryTreePreorderTraversal {
         return result;
     }
 
+    // preorder traverse
     private static void helper(TreeNode root, List<Integer> result) {
         if (root == null) {
             return;

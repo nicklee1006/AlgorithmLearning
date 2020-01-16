@@ -9,6 +9,7 @@ public class Q152MaximumProductSubarray {
         }
 
         // need to keep a record of max product and min product ending at index i
+        // want to keep min because if current < 0, we want min * current become large if min < 0
         int preMax = nums[0];
         int preMin = nums[0];
 

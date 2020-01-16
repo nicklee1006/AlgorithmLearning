@@ -115,9 +115,11 @@ Medium - [146. LRU Cache](https://leetcode.com/problems/lru-cache/) - Design
 Medium - [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/submissions/) - Linked List, Sort  
 Medium - [148. Sort List](https://leetcode.com/problems/sort-list/) - Linked List, Sort  
 Medium - [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) - Stack  
-[151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) - String  
-[152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) - Array, Dynamic Programming  
-[153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) - Array, Binary Search  
+Medium - [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) - String  
+Medium - [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) - Array, Dynamic Programming  
+Medium - [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) - Array, Binary Search  
+Easy - [155. Min Stack](https://leetcode.com/problems/min-stack/) - Stack, Design  
+Easy - [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) - Linked List  
 [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) - Array, Binary Search   
 [165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) - String  
 [166. Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) - Hash Table, Math  

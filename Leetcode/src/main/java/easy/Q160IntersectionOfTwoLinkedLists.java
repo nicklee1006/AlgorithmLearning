@@ -24,7 +24,7 @@ import util.ListNode;
  * 1. If one of the list reach end, then set it to the head of another list
  */
 public class Q160IntersectionOfTwoLinkedLists {
-    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+    public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null) {
             return null;
         }

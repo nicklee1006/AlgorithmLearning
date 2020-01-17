@@ -120,9 +120,12 @@ Medium - [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-p
 Medium - [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) - Array, Binary Search  
 Easy - [155. Min Stack](https://leetcode.com/problems/min-stack/) - Stack, Design  
 Easy - [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) - Linked List  
-[162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) - Array, Binary Search   
-[165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) - String  
-[166. Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) - Hash Table, Math  
+Medium - [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) - Array, Binary Search   
+Medium - [165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) - String  
+Medium - [166. Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) - Hash Table, Math  
+Easy - [167. Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) - Array, Two Pointers, Binary Search  
+Easy - [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) - Math  
+Easy - [169. Majority Element](https://leetcode.com/problems/majority-element/) - Array, Divide and Conquer, Bit Manipulation  
 [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) - Stack, Tree, Design  
 [179. Largest Number](https://leetcode.com/problems/largest-number/) - Sort  
 [187. Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) - Hash Table, Bit Manipulation  

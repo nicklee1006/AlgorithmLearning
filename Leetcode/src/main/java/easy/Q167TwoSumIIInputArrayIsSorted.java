@@ -23,16 +23,20 @@ package easy;
  */
 public class Q167TwoSumIIInputArrayIsSorted {
     public static int[] twoSum(int[] numbers, int target) {
+        // use 2 pointers
         int start = 0;
         int end = numbers.length - 1;
 
         while (start < end) {
+            // find the target
             if (numbers[start] + numbers[end] == target) {
                 break;
             }
 
+            // sum not big enough, increase start
             if (numbers[start] + numbers[end] < target) {
                 start++;
+            // sum to large, decrease end
             } else {
                 end--;
             }

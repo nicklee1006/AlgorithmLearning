@@ -18,6 +18,7 @@ import java.util.Map;
 public class Q169MajorityElement {
     public static int majorityElement(int[] nums) {
         int majority = 0;
+        // counting of each element
         Map<Integer, Integer> result = new HashMap<>();
 
         for (int temp : nums) {
@@ -28,6 +29,7 @@ public class Q169MajorityElement {
                 result.put(temp, 1);
             }
 
+            // once there is an element take the majority
             if (result.get(temp) > nums.length / 2) {
                 majority = temp;
             }

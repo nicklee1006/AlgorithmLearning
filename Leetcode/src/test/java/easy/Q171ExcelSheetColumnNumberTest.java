@@ -9,6 +9,5 @@ public class Q171ExcelSheetColumnNumberTest {
     public void titleToNumber() {
         Assert.assertEquals(26, Q171ExcelSheetColumnNumber.titleToNumber("Z"));
         Assert.assertEquals(28, Q171ExcelSheetColumnNumber.titleToNumber("AB"));
-
     }
 }

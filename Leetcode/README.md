@@ -85,7 +85,7 @@ Medium - [105. Construct Binary Tree from Preorder and Inorder Traversal](https:
 Medium - [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) - Array, Tree, DFS  
 Easy - [107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) - Tree, BFS  
 Easy - [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) - Tree, DFS  
-Medium - [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) - Linked List, DFS 
+Medium - [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) - Linked List, DFS  
 Easy - [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) - Tree, DFS  
 Easy - [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) - Tree, DFS, BFS  
 Easy - [112. Path Sum](https://leetcode.com/problems/path-sum/) - Tree, DFS    
@@ -126,8 +126,10 @@ Medium - [166. Fraction to Recurring Decimal](https://leetcode.com/problems/frac
 Easy - [167. Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) - Array, Two Pointers, Binary Search  
 Easy - [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) - Math  
 Easy - [169. Majority Element](https://leetcode.com/problems/majority-element/) - Array, Divide and Conquer, Bit Manipulation  
-[173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) - Stack, Tree, Design  
-[179. Largest Number](https://leetcode.com/problems/largest-number/) - Sort  
+Easy - [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-title/) - Math  
+Easy - [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) - Math  
+Medium - [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) - Stack, Tree, Design  
+Medium - [179. Largest Number](https://leetcode.com/problems/largest-number/) - Sort  
 [187. Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) - Hash Table, Bit Manipulation  
 [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) - Tree, DFS, BFS  
 [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) - DFS, BFS, Union Find  

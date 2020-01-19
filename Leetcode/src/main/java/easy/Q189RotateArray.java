@@ -23,13 +23,12 @@ public class Q189RotateArray {
         // avoid array index out of bound
         k = k % nums.length;
 
+        // reverse first (length - k) part
         reverse(nums, 0, nums.length - 1 - k);
+        // reverse second (k) part
         reverse(nums, nums.length - k, nums.length - 1);
+        // reverse whole
         reverse(nums, 0, nums.length - 1);
-
-        for (int temp : nums) {
-            System.out.println(temp);
-        }
     }
 
     private static void reverse(int[] nums, int start, int end) {

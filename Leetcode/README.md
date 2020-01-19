@@ -130,6 +130,8 @@ Easy - [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-she
 Easy - [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) - Math  
 Medium - [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) - Stack, Tree, Design  
 Medium - [179. Largest Number](https://leetcode.com/problems/largest-number/) - Sort  
-[187. Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) - Hash Table, Bit Manipulation  
+Medium - [187. Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) - Hash Table, Bit Manipulation  
+Easy - [189. Rotate Array](https://leetcode.com/problems/rotate-array/) - Array  
+Easy - [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) - Bit Manipulation  
 [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) - Tree, DFS, BFS  
 [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) - DFS, BFS, Union Find  

@@ -13,6 +13,7 @@ public class Q187RepeatedDNASequences {
         Set<String> result = new HashSet<>();
 
         for (int i = 0; i <= s.length() - 10; i++) {
+            // sliding window with length 10
             String sequence = s.substring(i, i + 10);
 
             // have met this sequence before

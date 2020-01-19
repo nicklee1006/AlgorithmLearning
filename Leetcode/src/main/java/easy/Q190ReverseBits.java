@@ -15,7 +15,7 @@ package easy;
  * 1. The last bit of n need to shift left for 31 times
  * 2. Get last bit of n
  * 3. Right shift n for 1-bit
- * 4. shift result to ledt
+ * 4. shift result to left
  *
  */
 public class Q190ReverseBits {
@@ -25,10 +25,10 @@ public class Q190ReverseBits {
 
         for (int i = 0; i < 32; i++) {
             // get last bit of n
-            result += n&1;
+            result += n & 1;
 
             // shift n to left for 1 bit
-            n = n>>>1;
+            n = n >>> 1;
 
             // shift result to right
             if (i < 31) {

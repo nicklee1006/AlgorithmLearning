@@ -133,5 +133,7 @@ Medium - [179. Largest Number](https://leetcode.com/problems/largest-number/) - 
 Medium - [187. Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) - Hash Table, Bit Manipulation  
 Easy - [189. Rotate Array](https://leetcode.com/problems/rotate-array/) - Array  
 Easy - [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) - Bit Manipulation  
-[199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) - Tree, DFS, BFS  
-[200. Number of Islands](https://leetcode.com/problems/number-of-islands/) - DFS, BFS, Union Find  
+Easy - [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) - Bit Manipulation  
+Easy - [198. House Robber](https://leetcode.com/problems/house-robber/) - Dynamic Programming  
+Medium - [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) - Tree, DFS, BFS  
+Medium - [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) - DFS, BFS, Union Find  

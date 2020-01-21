@@ -22,7 +22,7 @@ public class Q191NumberOf1Bits {
                 result++;
             }
 
-            n = n>>>1;
+            n = n >>> 1;
         }
 
         return result;

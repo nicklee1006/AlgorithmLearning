@@ -138,3 +138,8 @@ Easy - [198. House Robber](https://leetcode.com/problems/house-robber/) - Dynami
 Medium - [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) - Tree, DFS, BFS  
 Medium - [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) - DFS, BFS, Union Find  
 Medium - [201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) - Bit Manipulation  
+Easy - [202. Happy Number](https://leetcode.com/problems/happy-number/) - Hash Table, Math  
+Easy - [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) - Linked List  
+Easy - [204. Count Primes](https://leetcode.com/problems/count-primes/) - Hash Table, Math  
+Easy - [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) - Hash Table  
+Easy - [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) - Linked List  

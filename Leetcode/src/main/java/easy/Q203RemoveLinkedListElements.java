@@ -13,23 +13,22 @@ import util.ListNode;
  */
 public class Q203RemoveLinkedListElements {
     public static ListNode removeElements(ListNode head, int val) {
-        ListNode pointer = head;
-        ListNode previous = head;
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
 
-        while (pointer != null) {
-            if (pointer.val == val) {
-                if (pointer == head) {
-                    head = pointer.next;
-                } else {
-                    previous.next = pointer.next;
-                }
+        ListNode current = head;
+        ListNode previous = dummy;
+
+        while (current != null) {
+            if (current.val == val) {
+                previous.next = current.next;
             } else {
-                previous = pointer;
+                previous = current;
             }
 
-            pointer = pointer.next;
+            current = current.next;
         }
 
-        return head;
+        return dummy.next;
     }
 }

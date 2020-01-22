@@ -19,30 +19,36 @@ import java.util.Map;
  */
 public class Q205IsomorphicStrings {
     public static boolean isIsomorphic(String s, String t) {
+        // map to store first occurrence of a char
         Map<Character, Integer> indexS = new HashMap<>();
         Map<Character, Integer> indexT = new HashMap<>();
 
+        // assume same length
         for (int i = 0; i < s.length(); i++) {
-            char sChar = s.charAt(i);
-            char tChar = t.charAt(i);
+            // get char
+            char charInS = s.charAt(i);
+            char charInT = t.charAt(i);
 
             int tempIndexS;
             int tempIndexT;
 
-            if (indexS.containsKey(sChar)) {
-                tempIndexS = indexS.get(sChar);
+            // get first occurrence index of 'charInS'
+            if (indexS.containsKey(charInS)) {
+                tempIndexS = indexS.get(charInS);
             } else {
                 tempIndexS = i;
-                indexS.put(sChar, i);
+                indexS.put(charInS, i);
             }
 
-            if (indexT.containsKey(tChar)) {
-                tempIndexT = indexT.get(tChar);
+            // get first occurrence index of 'charInT'
+            if (indexT.containsKey(charInT)) {
+                tempIndexT = indexT.get(charInT);
             } else {
                 tempIndexT = i;
-                indexT.put(tChar, i);
+                indexT.put(charInT, i);
             }
 
+            // if they don't match, then false
             if (tempIndexS != tempIndexT) {
                 return false;
             }

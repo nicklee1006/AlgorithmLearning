@@ -143,3 +143,4 @@ Easy - [203. Remove Linked List Elements](https://leetcode.com/problems/remove-l
 Easy - [204. Count Primes](https://leetcode.com/problems/count-primes/) - Hash Table, Math  
 Easy - [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) - Hash Table  
 Easy - [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) - Linked List  
+Medium - [207. Course Schedule](https://leetcode.com/problems/course-schedule/) - DFS, BFS, Graph, Topological Sort  

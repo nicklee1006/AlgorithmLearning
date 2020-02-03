@@ -1,6 +1,5 @@
 package medium;
 
-import java.math.BigDecimal;
 import util.ListNode;
 
 /**
@@ -21,54 +20,88 @@ import util.ListNode;
  */
 public class Q2AddTwoNumbers {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        int first1 = l1.val;
-        int first2 = l2.val;
+        ListNode dummyHead = new ListNode(-1);
 
-        String tempL1 = String.valueOf(first1);
-        String tempL2 = String.valueOf(first2);
+        ListNode current = dummyHead;
+        ListNode p = l1;
+        ListNode q = l2;
 
-        while (l1.next != null) {
-            tempL1 = tempL1 + l1.next.val;
+        int carry = 0;
 
-            l1 = l1.next;
+        while (p != null || q != null) {
+            int x = p != null ? p.val : 0;
+            int y = q != null ? q.val : 0;
+
+            int sum = carry + x + y;
+            carry = sum / 10;
+
+            current.next = new ListNode(sum % 10);
+            current = current.next;
+
+            if (p != null) {
+                p = p.next;
+            }
+
+            if (q != null) {
+                q = q.next;
+            }
         }
 
-        while (l2.next != null) {
-            tempL2 = tempL2 + l2.next.val;
-
-            l2 = l2.next;
+        if (carry > 0) {
+            current.next = new ListNode(carry);
         }
 
-        StringBuilder builder1 = new StringBuilder();
-        StringBuilder builder2 = new StringBuilder();
-
-        builder1.append(tempL1);
-        builder2.append(tempL2);
-
-        builder1 = builder1.reverse();
-        builder2 = builder2.reverse();
-
-        BigDecimal bd1 = new BigDecimal(builder1.toString());
-        BigDecimal bd2 = new BigDecimal(builder2.toString());
-
-        String answer = String.valueOf(bd1.add(bd2));
-
-        StringBuilder builder3 = new StringBuilder();
-        builder3.append(answer);
-
-        builder3 = builder3.reverse();
-        answer = builder3.toString();
-
-        ListNode first = new ListNode(Character.getNumericValue(answer.charAt(0)));
-        ListNode current = first;
-
-        for (int i = 1; i < answer.length(); i++) {
-            ListNode newNode = new ListNode(Character.getNumericValue(answer.charAt(i)));
-
-            current.next = newNode;
-            current = newNode;
-        }
-
-        return first;
+        return dummyHead.next;
     }
+//    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+//        int first1 = l1.val;
+//        int first2 = l2.val;
+//
+//        String tempL1 = String.valueOf(first1);
+//        String tempL2 = String.valueOf(first2);
+//
+//        while (l1.next != null) {
+//            tempL1 = tempL1 + l1.next.val;
+//
+//            l1 = l1.next;
+//        }
+//
+//        while (l2.next != null) {
+//            tempL2 = tempL2 + l2.next.val;
+//
+//            l2 = l2.next;
+//        }
+//
+//        StringBuilder builder1 = new StringBuilder();
+//        StringBuilder builder2 = new StringBuilder();
+//
+//        builder1.append(tempL1);
+//        builder2.append(tempL2);
+//
+//        builder1 = builder1.reverse();
+//        builder2 = builder2.reverse();
+//
+//        BigDecimal bd1 = new BigDecimal(builder1.toString());
+//        BigDecimal bd2 = new BigDecimal(builder2.toString());
+//
+//        String answer = String.valueOf(bd1.add(bd2));
+//
+//        StringBuilder builder3 = new StringBuilder();
+//        builder3.append(answer);
+//
+//        builder3 = builder3.reverse();
+//        answer = builder3.toString();
+//
+//        ListNode first = new ListNode(Character.getNumericValue(answer.charAt(0)));
+//        ListNode current = first;
+//
+//        for (int i = 1; i < answer.length(); i++) {
+//            ListNode newNode = new ListNode(Character.getNumericValue(answer.charAt(i)));
+//
+//            current.next = newNode;
+//            current = newNode;
+//        }
+//
+//        return first;
+//    }
 }

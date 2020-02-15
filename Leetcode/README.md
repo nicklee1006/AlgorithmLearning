@@ -151,3 +151,4 @@ Medium - [211. Add and Search Word - Data structure design](https://leetcode.com
 Medium - [213. House Robber II](https://leetcode.com/problems/house-robber-ii/) - Dynamic Programming  
 Medium - [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) - Divide and Conquer, Heap  
 Medium - [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) - Array, Backtracking  
+Medium - [220. Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) - Sort, Ordered Map  

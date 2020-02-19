@@ -153,3 +153,4 @@ Medium - [215. Kth Largest Element in an Array](https://leetcode.com/problems/kt
 Medium - [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) - Array, Backtracking  
 Medium - [220. Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) - Sort, Ordered Map  
 Medium - [221. Maximal Square](https://leetcode.com/problems/maximal-square/) - Dynamic Programming  
+Medium - [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) - Binary Search, Tree  

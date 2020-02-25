@@ -15,7 +15,7 @@ import util.TreeNode;
  * 2. Sway the left and right child
  */
 public class Q226InvertBinaryTree {
-    public TreeNode invertTree(TreeNode root) {
+    public static TreeNode invertTree(TreeNode root) {
         if (root == null) {
             return null;
         }

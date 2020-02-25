@@ -151,7 +151,11 @@ Medium - [211. Add and Search Word - Data structure design](https://leetcode.com
 Medium - [213. House Robber II](https://leetcode.com/problems/house-robber-ii/) - Dynamic Programming  
 Medium - [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) - Divide and Conquer, Heap  
 Medium - [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) - Array, Backtracking  
+Easy - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) - Array, Hash Table  
+Easy - [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) - Array, Hash Table  
 Medium - [220. Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) - Sort, Ordered Map  
 Medium - [221. Maximal Square](https://leetcode.com/problems/maximal-square/) - Dynamic Programming  
 Medium - [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) - Binary Search, Tree  
 Medium - [223. Rectangle Area](https://leetcode.com/problems/rectangle-area/) - Math  
+Easy - [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) - Stack, Design  
+Easy - [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) - Tree  

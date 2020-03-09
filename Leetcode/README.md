@@ -162,3 +162,4 @@ Easy - [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tre
 Medium - [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) - String  
 Medium - [228. Summary Ranges](https://leetcode.com/problems/summary-ranges/) - Array  
 Medium - [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/) - Array  
+Medium - [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) - Binary Search, Tree

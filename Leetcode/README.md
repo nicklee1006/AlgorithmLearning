@@ -162,4 +162,9 @@ Easy - [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tre
 Medium - [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) - String  
 Medium - [228. Summary Ranges](https://leetcode.com/problems/summary-ranges/) - Array  
 Medium - [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/) - Array  
-Medium - [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) - Binary Search, Tree
+Medium - [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) - Binary Search, Tree  
+Easy - [231. Power of Two](https://leetcode.com/problems/power-of-two/) - Math, Bit Manipulation  
+Easy - [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) - Stack, Design  
+Easy - [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) - Linked List, Two Pointers  
+Easy - [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) - Tree  
+Easy - [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) - Linked List  

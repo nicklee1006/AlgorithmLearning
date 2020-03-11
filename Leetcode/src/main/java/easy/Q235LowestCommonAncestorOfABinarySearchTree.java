@@ -19,7 +19,7 @@ import util.TreeNode;
  * 3. root < p, < q, check root.right
  */
 public class Q235LowestCommonAncestorOfABinarySearchTree {
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    public static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root.val > p.val && root.val > q.val) {
             return lowestCommonAncestor(root.left, p, q);
         } else if (root.val < p.val && root.val < q.val) {

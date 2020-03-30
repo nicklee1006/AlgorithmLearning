@@ -14,7 +14,7 @@ import util.TreeNode;
  * 1. DFS
  */
 public class Q257BinaryTreePaths {
-    public List<String> binaryTreePaths(TreeNode root) {
+    public static List<String> binaryTreePaths(TreeNode root) {
         List<String> results = new ArrayList<>();
 
         if (root != null) {
@@ -24,7 +24,7 @@ public class Q257BinaryTreePaths {
         return results;
     }
 
-    private void DFS(TreeNode root, String path, List<String> results) {
+    private static void DFS(TreeNode root, String path, List<String> results) {
         if (root.left == null && root.right == null) {
             results.add(path + root.val);
         }

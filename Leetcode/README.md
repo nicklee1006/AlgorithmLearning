@@ -175,4 +175,5 @@ Medium - [241. Different Ways to Add Parentheses](https://leetcode.com/problems/
 Easy - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) - Hash Table, Sort  
 Easy - [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) - Tree, DFS  
 Easy - [258. Add Digits](https://leetcode.com/problems/add-digits/) - Math  
+Medium - [260. Single Number III](https://leetcode.com/problems/single-number-iii/) - Bit Manipulation  
 Easy - [263. Ugly Number](https://leetcode.com/problems/ugly-number/) - Math  

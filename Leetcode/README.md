@@ -178,3 +178,4 @@ Easy - [258. Add Digits](https://leetcode.com/problems/add-digits/) - Math
 Medium - [260. Single Number III](https://leetcode.com/problems/single-number-iii/) - Bit Manipulation  
 Easy - [263. Ugly Number](https://leetcode.com/problems/ugly-number/) - Math  
 Medium - [264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) - Math, Dynamic Programming, Heap  
+Medium - [274. H-Index](https://leetcode.com/problems/h-index/) - Hash Table, Sort  

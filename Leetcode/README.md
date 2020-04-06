@@ -179,3 +179,4 @@ Medium - [260. Single Number III](https://leetcode.com/problems/single-number-ii
 Easy - [263. Ugly Number](https://leetcode.com/problems/ugly-number/) - Math  
 Medium - [264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) - Math, Dynamic Programming, Heap  
 Medium - [274. H-Index](https://leetcode.com/problems/h-index/) - Hash Table, Sort  
+Medium - [275 - H-Index II](https://leetcode.com/problems/h-index-ii/) - Binary Search  

@@ -171,7 +171,7 @@ Medium - [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/pro
 Easy - [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) - Linked List  
 Medium - [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) - Array  
 Medium - [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) - Binary Search, Divide and Conquer  
-Medium - [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) - Divide and Conquer
+Medium - [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) - Divide and Conquer  
 Easy - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) - Hash Table, Sort  
 Easy - [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) - Tree, DFS  
 Easy - [258. Add Digits](https://leetcode.com/problems/add-digits/) - Math  
@@ -180,3 +180,4 @@ Easy - [263. Ugly Number](https://leetcode.com/problems/ugly-number/) - Math
 Medium - [264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) - Math, Dynamic Programming, Heap  
 Medium - [274. H-Index](https://leetcode.com/problems/h-index/) - Hash Table, Sort  
 Medium - [275 - H-Index II](https://leetcode.com/problems/h-index-ii/) - Binary Search  
+Medium - [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/) - Math, Dynamic Programming, BFS  

@@ -4,8 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Q279PerfectSquares {
+    private static Map<Integer, Integer> records = new HashMap<>();
+
     public static int numSquares(int n) {
-        return helper(n, new HashMap<>());
+        return helper(n, records);
     }
 
     private static int helper(int n, Map<Integer, Integer> records) {

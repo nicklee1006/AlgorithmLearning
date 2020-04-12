@@ -181,3 +181,4 @@ Medium - [264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) - 
 Medium - [274. H-Index](https://leetcode.com/problems/h-index/) - Hash Table, Sort  
 Medium - [275 - H-Index II](https://leetcode.com/problems/h-index-ii/) - Binary Search  
 Medium - [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/) - Math, Dynamic Programming, BFS  
+Medium - [284. Peeking Iterator](https://leetcode.com/problems/peeking-iterator/) - Design  

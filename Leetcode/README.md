@@ -178,9 +178,15 @@ Easy - [258. Add Digits](https://leetcode.com/problems/add-digits/) - Math
 Medium - [260. Single Number III](https://leetcode.com/problems/single-number-iii/) - Bit Manipulation  
 Easy - [263. Ugly Number](https://leetcode.com/problems/ugly-number/) - Math  
 Medium - [264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) - Math, Dynamic Programming, Heap  
+Easy - [268. Missing Number](https://leetcode.com/problems/missing-number/) - Array, Math, Bit Manipulation  
 Medium - [274. H-Index](https://leetcode.com/problems/h-index/) - Hash Table, Sort  
 Medium - [275 - H-Index II](https://leetcode.com/problems/h-index-ii/) - Binary Search  
+Easy - [278. First Bad Version](https://leetcode.com/problems/first-bad-version/) - Binary Search  
 Medium - [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/) - Math, Dynamic Programming, BFS  
+Easy - [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) - Array, Two Pointers  
 Medium - [284. Peeking Iterator](https://leetcode.com/problems/peeking-iterator/) - Design  
 Medium - [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) - Array, Two Pointers, Binary Search  
 Medium - [289. Game of Life](https://leetcode.com/problems/game-of-life/) - Array  
+Easy - [290. Word Pattern](https://leetcode.com/problems/word-pattern/) - Hash Table  
+Easy - [292. Nim Game](https://leetcode.com/problems/nim-game/) - Brainteaser, Minimax  
+Easy - [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) - Dynamic Programming  

@@ -189,4 +189,5 @@ Medium - [287. Find the Duplicate Number](https://leetcode.com/problems/find-the
 Medium - [289. Game of Life](https://leetcode.com/problems/game-of-life/) - Array  
 Easy - [290. Word Pattern](https://leetcode.com/problems/word-pattern/) - Hash Table  
 Easy - [292. Nim Game](https://leetcode.com/problems/nim-game/) - Brainteaser, Minimax  
+Easy - [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) - Hash Table  
 Easy - [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) - Dynamic Programming  

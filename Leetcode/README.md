@@ -192,4 +192,5 @@ Easy - [292. Nim Game](https://leetcode.com/problems/nim-game/) - Brainteaser, M
 Easy - [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) - Hash Table  
 Medium - [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) - Binary Search, Dynamic Programming  
 Easy - [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) - Dynamic Programming  
-Medium - [304. Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) - Dynamic Programming
+Medium - [304. Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) - Dynamic Programming  
+Medium - [306. Additive Number](https://leetcode.com/problems/additive-number/) - Backtracking  
